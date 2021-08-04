@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Author page</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    <!-- <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a href="news.html" class="header-menu-link my-link">Новости</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Финансовая граммотность</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Скидки</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Рейтинги МФО</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="bank-rating.html" class="header-menu-link my-link">Рейтинги банков</a>
+        </li>
+      </ul>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="services__menu">
+      <li class="services__item"><a href="currency.html" class="services__link my-link">Курсы валют</a></li>
+      <li class="services__item"><a href="zaim.html" class="services__link my-link">Займы</a></li>
+      <li class="services__item"><a href="" class="services__link ">Кредиты</a></li>
+      <li class="services__item"><a href="" class="services__link">Банки</a></li>
+      <li class="services__item"><a href="mfo.html" class="services__link my-link">МФО</a></li>
+      <li class="services__item"><a href="" class="services__link">Дебетовые карты</a></li>
+      <li class="services__item"><a href="" class="services__link">Вклады</a></li>
+      <li class="services__item"><a href="" class="services__link">Страхование</a></li>
+      <li class="services__item"><a href="" class="services__link">РКО</a></li>
+    </ul>
+  </div>
+</header> -->
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+      <div class="header__burger"></div>
+    </div>
+    <div class="services__wrapper">
+      <ul class="services__menu">
+        <li class="services__item"><div class="services__toggle"></div></li>
+        <li class="services__item"><a href="currency.html" class="services__link">Курсы валют</a></li>
+        <li class="services__item"><a href="zaim.html" class="services__link">Займы</a></li>
+        <li class="services__item"><a href="mfo.html" class="services__link">МФО</a></li>
+        <li class="services__item"> <a href="news.html" class="services__link">Новости</a> </li>
+        <li class="services__item"> <a href="bank-rating.html" class="services__link">Рейтинги банков</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="authors.html" class="breadcrumbs__link">Редакция</a></li>
+        <li><a href="" class="breadcrumbs__link">Вениамин Багратионов</a></li>
+      </ul>
+    </div>
+    <!--                         breadcrumbs                         -->
+    <!--                         block                         -->
+    <div class="container">
+      <div class="left-block">
+        <div class="author">
+          <ul class="author__list">
+            <li class="author__item">
+              <div class="author__logo">
+                <img src="img/author.png" alt="">
+              </div>
+              <div class="author__content">
+                <a href="" class="author__link">Вениамин Багратионов</a>
+                <h3 class="author__title">Редактор новостного раздела</h3>
+                <div class="author__text">Финансовый эксперт, окончил финансовый факультет ННГУ им. Лобачевского, работал в газете «Нижегородский рабочий», федеральном интернет-издании «Русская планета», ИА «ВгородеN», ИА ТАСС, ИА NewsNN. </div>
+                <ul class="author__social social social--left">
+                  <li><a href="" class="social-link"><img src="img/social/vk-black.svg" alt=""></a></li>
+                  <li><a href="" class="social-link"><img src="img/social/facebook-black.svg" alt=""></a></li>
+                  <li><a href="" class="social-link"><img src="img/social/twitter-black.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <h2 class="info-block__title">Образование</h2>
+        <div class="info-block__text">
+          <p>Закончил факультет журналистики Белорусского государственного университета. Во время учебы работал внештатным корреспондентом на интернет-порталах TUT.BY и «Ежедневник». На проект Bankiros.ru пришел в 2017 году. Среди журналистских интересов выделяет макро- и микроэкономические темы. В свободное время занимается музыкой и спортом.</p>
+        </div>
+        <h2 class="info-block__title">Карьера</h2>
+        <div class="info-block__text">
+          <p>В 2012 году принял решение связать свою жизнь именно с финансовым сектором. Первый опыт – микрофинансовая организация ИзиКредит. В обязанности входило:</p>
+          <ul class="info-block__list">
+            <li class="info-block__list-item info-block__list-item--dot">
+              привлечение новых клиентов;
+            </li>
+            <li class="info-block__list-item info-block__list-item--dot">
+              формирование заявок на выдачу займов;
+            </li>
+            <li class="info-block__list-item info-block__list-item--dot">
+              ведение имеющегося кредитного портфеля;
+            </li>
+            <li class="info-block__list-item info-block__list-item--dot">
+              предоставление отчетности о выполненной работе.
+            </li>
+          </ul>
+          <div class="info-block__text">
+            <p>В том же году, получив достаточный первичный опыт в направлении предоставления финансовых услуг физлицам, перешел работать в государственный банк — УкрГазБанк. Должность – главный экономист отделения по обслуживанию физических лиц и МСБ.Помимо основных обязанностей, прохождение курсов повышения квалификации. В частности, по реализации розничных продуктов и обслуживанию премиальных клиентов.</p>
+            <p>С 2015 года отстранился от представления интересов одной из сторон в финансовых взаимоотношениях. Начал реализовывать контент этого направления в формате фриланса.</p>
+            <p>В конце 2015 года реализуемые материалы заинтересовали владельцев агрегатора кредитных продуктов ЗанимайОнлайн. Приглашен на должность копирайтера. На том же ресурсе с 2016 года повышен до редактора портала. Достижение – увеличение аудитории сайта с 5000 посетителей в месяц до 100 000.</p>
+            <p>В 2017 году приглашен для реализации нового проекта – агрегатор финансовых продуктов банков и МФО BancRF. В качестве редактора. В течение четырех месяцев после запуска сайта, благодаря формированию контента в период разработки ресурса, его аудитория достигла все тех же 100 000 посетителей в месяц.</p>
+          </div>
+        </div>
+        <ul class="info-block__list">
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые активные банки в соцсетях 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">МФО с самыми посещаемыми сайтами 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые посещаемые сайты банков 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые крупные МФО в соцсетях начала 2021 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые крупные банки в соцсетях начала 2021 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Сколько банков в России на сегодняшний день 2021 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Ключевая ставка ЦБ РФ в 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые популярные банки в Яндекс 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые медийные банки 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые медийные МФО 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые популярные в Яндекс МФО 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Какие банки закроются в 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Новогодние кредиты к 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Ипотека под 0 процентов в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Новогодние акции МФО к 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Просрочка по ипотеке в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Новогодние вклады в банках к 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Лучшие мобильные банки 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Крупнейшие банки-налогоплательщики 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Лучшие мобильные приложения МФО 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые доходные МФО 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Карты с кэшбеком на продукты в супермаркетах 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Банки с минимальной просрочкой физлиц в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Максимальная ставка по кредиту в 2021 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Мифы о займах в МФО</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Облигации МФО в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Вклады с выплатой процентов вперед в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Самые богатые регионы России 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Рейтинг МФО по объему активов в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Лучшие банки для ипотеки 2020 года</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Рейтинг регионов 2020 года по числу ипотечных займов</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">МФО с высоким процентом одобрения в 2020 году</a></li>
+          <li class="info-block__list-item info-block__list-item--dot"><a href="" class="info-block__link">Регионы России конца 2020 года по деньгам физлиц в банках</a></li>
+        </ul>
+        <!--                         color-social                         -->
+        <div class="color-social">
+          <h3 class="color-social__title">Расскажите друзьям:</h3>
+          <ul class="color-social__list">
+            <li class="color-social__item">
+              <a href="">
+                <img src="img/social/facebook-color.svg" alt="">
+              </a>
+            </li>
+            <li class="color-social__item">
+              <a href="">
+                <img src="img/social/telegram-color.svg" alt="">
+              </a>
+            </li>
+            <li class="color-social__item">
+              <a href="">
+                <img src="img/social/twitter-color.svg" alt="">
+              </a>
+            </li>
+            <li class="color-social__item">
+              <a href="">
+                <img src="img/social/ok-color.svg" alt="">
+              </a>
+            </li>
+            <li class="color-social__item">
+              <a href="">
+                <img src="img/social/vk-color.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--                         color-social                         -->
+        <!--                         comments                         -->
+        <div class="comments">
+          <div class="block__top block__top--start">
+            <h2 class="block__title">Комментарии</h2>
+            <div class="block__logo block__logo--comments">1</div>
+          </div>
+          <form class="comments-form">
+            <div class="comments-form__logo">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="comments-form__content">
+              <textarea class="comments-form__textarea" placeholder="Ваш комментарий"></textarea>
+              <input type="submit" class="comments-form__button button button--transparent" value="Комментировать">
+            </div>
+          </form>
+          <div class="comments-block">
+            <div class="comments-block__logo"><img src="img/user.png" alt=""></div>
+            <div class="comments-block__content">
+              <div class="comments-block__top">
+                <div class="comments-block__name">Юлия</div>
+                <div class="comments-block__date">15.01.2021</div>
+              </div>
+              <div class="comments-block__text">
+                <p>Председатель думского комитета по финансовому рынку Анатолий Аксаков - вор и враль в кубе с долларовыми счетами за границей.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="aside aside--absolute">
+        <div class="aside__border">
+          <div class="aside__person">
+            <div class="aside__person-img"><img src="img/Portrait.png" alt=""></div>
+            <h3 class="aside__title">Другие авторы</h3>
+            <a href="" class="aside__link">Вениамин <br> Багратионов</a>
+            <span class="aside__span">Редактор новостного раздела</span>
+          </div>
+          <div class="aside__line"></div>
+          <div class="aside__person">
+            <div class="aside__person-img"><img src="img/Portrait.png" alt=""></div>
+            <a href="" class="aside__link">Вениамин <br> Багратионов</a>
+            <span class="aside__span">Редактор новостного раздела</span>
+          </div>
+          <div class="aside__line"></div>
+          <div class="aside__person">
+            <div class="aside__person-img"><img src="img/Portrait.png" alt=""></div>
+            <a href="" class="aside__link">Вениамин <br> Багратионов</a>
+            <span class="aside__span">Редактор новостного раздела</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <!--                         comments                         -->
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+      <div class="footer__copy">© 2017 - 2020 Займ.me Все права защищены.</div>
+      <ul class="footer__social social">
+        <li><a href="" class="social-link"><img src="img/social/Yandex-zen-black.svg " alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/vk-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/facebook-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/twitter-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/instagram-black.svg" alt=""></a></li>
+      </ul>
+    </div>
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">О нас</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Контакты</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Вакансии</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Отзывы</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакция</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакционная политика</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Наша компенсация</a>
+      </li>
+    </ul>
+    <div class="footer__middle">
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредитной карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Дебетовые карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с бесплатным обслуживанием</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с доставкой на дом</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными на карту</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредита</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Рефинансирование</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Автокредиты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитная история</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Микрозайм</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор займов</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">РКО для бизнеса</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <img src="img/icons/mail.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Наша почта</h3>
+            <a href="" class="footer__list-link">Рефинансирование</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/phone.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Телефон</h3>
+            <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/clock.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Режим работы</h3>
+            <a href="" class="footer__list-link">Автокредиты</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/home.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Адрес</h3>
+            <a href="" class="footer__list-link">Кредитная история</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__confidential">
+      <div class="footer__confidential-paragrapgh">Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, в объеме и целях, изложенных в
+        <a href="" class="footer__confidential-link">Политика конфиденциальности, Пользовательское соглашение</a>
+      </div>
+      <div class="footer__confidential-paragrapgh">ИП Булатов Р.О. ИНН: 423082922740. ОГРНИП: 318420500081301. Содержание сайта не является рекомендацией или офертой, вся информация носит ознакомительный характер.
+        При использовании материалов гиперссылка на Займ.me обязательна. </div>
+    </div>
+  </div>
+</footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

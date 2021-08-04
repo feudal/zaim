@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Wiki</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    <!-- <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a href="news.html" class="header-menu-link my-link">Новости</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Финансовая граммотность</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Скидки</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Рейтинги МФО</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="bank-rating.html" class="header-menu-link my-link">Рейтинги банков</a>
+        </li>
+      </ul>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="services__menu">
+      <li class="services__item"><a href="currency.html" class="services__link my-link">Курсы валют</a></li>
+      <li class="services__item"><a href="zaim.html" class="services__link my-link">Займы</a></li>
+      <li class="services__item"><a href="" class="services__link ">Кредиты</a></li>
+      <li class="services__item"><a href="" class="services__link">Банки</a></li>
+      <li class="services__item"><a href="mfo.html" class="services__link my-link">МФО</a></li>
+      <li class="services__item"><a href="" class="services__link">Дебетовые карты</a></li>
+      <li class="services__item"><a href="" class="services__link">Вклады</a></li>
+      <li class="services__item"><a href="" class="services__link">Страхование</a></li>
+      <li class="services__item"><a href="" class="services__link">РКО</a></li>
+    </ul>
+  </div>
+</header> -->
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+      <div class="header__burger"></div>
+    </div>
+    <div class="services__wrapper">
+      <ul class="services__menu">
+        <li class="services__item"><div class="services__toggle"></div></li>
+        <li class="services__item"><a href="currency.html" class="services__link">Курсы валют</a></li>
+        <li class="services__item"><a href="zaim.html" class="services__link">Займы</a></li>
+        <li class="services__item"><a href="mfo.html" class="services__link">МФО</a></li>
+        <li class="services__item"> <a href="news.html" class="services__link">Новости</a> </li>
+        <li class="services__item"> <a href="bank-rating.html" class="services__link">Рейтинги банков</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="" class="breadcrumbs__link">Новости</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="main__top">
+          <h1 class="main__title">Словарь терминов и понятий</h1>
+        </div>
+        <div class="main__text">
+          <p>Преимущество онлайн открытия вклада Какие вклады можно открыть онлайн? Как открыть вклад в Сбербанк Онлайн? Как открыть вклад в мобильном приложении? Как закрыть вклад в Сбербанке Онлайн?...</p>
+        </div>
+      </div>
+      <div class="flex-wrapper">
+        <div class="left-block">
+          <!--                         search                         -->
+          <form class="search">
+            <div class="search__block">
+              <input type="text" class="search__input" placeholder="Введите  термин">
+              <input type="text" class="search__button button button--gradient" value="Начать поиск">
+            </div>
+            <ul class="search__letters">
+              <li class="search__letters-item"><a href="">А</a></li>
+              <li class="search__letters-item search__letters-item--inactive"><a href="">Б</a></li>
+              <li class="search__letters-item"><a href="">В</a></li>
+              <li class="search__letters-item"><a href="">Г</a></li>
+              <li class="search__letters-item"><a href="">Д</a></li>
+              <li class="search__letters-item"><a href="">Е</a></li>
+              <li class="search__letters-item"><a href="">Ё</a></li>
+              <li class="search__letters-item"><a href="">Ж</a></li>
+              <li class="search__letters-item"><a href="">З</a></li>
+              <li class="search__letters-item"><a href="">И</a></li>
+              <li class="search__letters-item"><a href="">Й</a></li>
+              <li class="search__letters-item"><a href="">К</a></li>
+              <li class="search__letters-item"><a href="">Л</a></li>
+              <li class="search__letters-item"><a href="">М</a></li>
+              <li class="search__letters-item"><a href="">Н</a></li>
+              <li class="search__letters-item"><a href="">О</a></li>
+              <li class="search__letters-item"><a href="">П</a></li>
+              <li class="search__letters-item"><a href="">Р</a></li>
+              <li class="search__letters-item"><a href="">С</a></li>
+              <li class="search__letters-item"><a href="">Т</a></li>
+              <li class="search__letters-item"><a href="">У</a></li>
+              <li class="search__letters-item"><a href="">Ф</a></li>
+              <li class="search__letters-item"><a href="">Х</a></li>
+              <li class="search__letters-item"><a href="">Ц</a></li>
+              <li class="search__letters-item"><a href="">Ч</a></li>
+              <li class="search__letters-item"><a href="">Ш</a></li>
+              <li class="search__letters-item"><a href="">Щ</a></li>
+              <li class="search__letters-item"><a href="">Ъ</a></li>
+              <li class="search__letters-item"><a href="">Ы</a></li>
+              <li class="search__letters-item"><a href="">Ь</a></li>
+              <li class="search__letters-item"><a href="">Э</a></li>
+              <li class="search__letters-item"><a href="">Ю</a></li>
+              <li class="search__letters-item"><a href="">Я</a></li>
+            </ul>
+            <ul class="search__letters">
+              <li class="search__letters-item"><a href="">A</a></li>
+              <li class="search__letters-item search__letters-item--inactive"><a href="">B</a></li>
+              <li class="search__letters-item"><a href="">C</a></li>
+              <li class="search__letters-item"><a href="">D</a></li>
+              <li class="search__letters-item"><a href="">E</a></li>
+              <li class="search__letters-item"><a href="">F</a></li>
+              <li class="search__letters-item"><a href="">G</a></li>
+              <li class="search__letters-item"><a href="">H</a></li>
+              <li class="search__letters-item"><a href="">I</a></li>
+              <li class="search__letters-item"><a href="">J</a></li>
+              <li class="search__letters-item"><a href="">K</a></li>
+              <li class="search__letters-item"><a href="">L</a></li>
+              <li class="search__letters-item"><a href="">M</a></li>
+              <li class="search__letters-item"><a href="">N</a></li>
+              <li class="search__letters-item"><a href="">O</a></li>
+              <li class="search__letters-item"><a href="">P</a></li>
+              <li class="search__letters-item"><a href="">Q</a></li>
+              <li class="search__letters-item"><a href="">R</a></li>
+              <li class="search__letters-item"><a href="">S</a></li>
+              <li class="search__letters-item"><a href="">T</a></li>
+              <li class="search__letters-item"><a href="">U</a></li>
+              <li class="search__letters-item"><a href="">V</a></li>
+              <li class="search__letters-item"><a href="">W</a></li>
+              <li class="search__letters-item"><a href="">X</a></li>
+              <li class="search__letters-item"><a href="">Y</a></li>
+              <li class="search__letters-item"><a href="">Z</a></li>
+            </ul>
+          </form>
+          <!--                         search                         -->
+          <!--                         pointers                         -->
+          <ul class="pointers">
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Стоит ли инвестировать деньги в акции иностранных эмитентов?...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Пять идей по инвестиции, куда вложить деньги?</a>
+              <div class="pointers__text">Что такое инвестиции, куда вкладывать деньги...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Индивидуальные инвестиционные счета, как финансовый продукт, были запущены...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Стоит ли инвестировать деньги в акции иностранных эмитентов?...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Пять идей по инвестиции, куда вложить деньги?</a>
+              <div class="pointers__text">Что такое инвестиции, куда вкладывать деньги...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Индивидуальные инвестиционные счета, как финансовый продукт, были запущены...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Стоит ли инвестировать деньги в акции иностранных эмитентов?...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Пять идей по инвестиции, куда вложить деньги?</a>
+              <div class="pointers__text">Что такое инвестиции, куда вкладывать деньги...</div>
+            </li>
+            <li class="pointers__item">
+              <a href="" class="pointers__title">Акции иностранных эмитентов</a>
+              <div class="pointers__text">Индивидуальные инвестиционные счета, как финансовый продукт, были запущены...</div>
+            </li>
+          </ul>
+          <!--                         pointers                         -->
+          .
+        </div>
+        <aside class="aside">
+          <div class="aside__lists">
+            <h3 class="aside__list-title">Категории новостей</h3>
+            <ul class="aside__list">
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Все</a>
+              </li>
+              <li class="aside__list-item aside__list-item--active">
+                <a href="news-detailated.html">Зарплаты России</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Банковские услуги</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Налог</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Банкротство</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Валюта</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Экономика</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Банки</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Тесты</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">РКО в банках</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Штраф</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Криптовалюта</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Страхование</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Котировки грамотность</a>
+              </li>
+              <li class="aside__list-item">
+                <a href="news-detailated.html">Справки-релизы</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="container">
+      <div class="info-block">
+        <h2 class="info-block__title">Все МФО России</h2>
+        <div class="info-block__text">
+          <p>МФО — это юридические компании, имеющие лицензию на выдачу кредитов, которые не являются банком и имеют собственный капитал в размере не менее 70 млн. Правовая регулировка осуществления деятельности таких компаний предусмотрена Законом №151-ФЗ от 02.07.2010. На состояние 2020 года в России зарегистрировано тысячи МФ организаций. Для чего они существуют, чем отличаются от банков, в каких случаях выгодно обращаться к ним за услугами — ответим далее в нашей статье.</p>
+          <p>Для того чтобы осуществлять законную деятельность, любая вновь созданная МФО должна быть зарегистрирована в специальном реестре. Он находится на официальном сайте Центрального Банка России в свободном доступе, для того чтобы в любой момент можно было проверить данные той или иной компании.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+      <div class="footer__copy">© 2017 - 2020 Займ.me Все права защищены.</div>
+      <ul class="footer__social social">
+        <li><a href="" class="social-link"><img src="img/social/Yandex-zen-black.svg " alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/vk-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/facebook-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/twitter-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/instagram-black.svg" alt=""></a></li>
+      </ul>
+    </div>
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">О нас</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Контакты</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Вакансии</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Отзывы</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакция</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакционная политика</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Наша компенсация</a>
+      </li>
+    </ul>
+    <div class="footer__middle">
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредитной карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Дебетовые карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с бесплатным обслуживанием</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с доставкой на дом</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными на карту</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредита</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Рефинансирование</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Автокредиты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитная история</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Микрозайм</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор займов</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">РКО для бизнеса</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <img src="img/icons/mail.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Наша почта</h3>
+            <a href="" class="footer__list-link">Рефинансирование</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/phone.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Телефон</h3>
+            <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/clock.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Режим работы</h3>
+            <a href="" class="footer__list-link">Автокредиты</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/home.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Адрес</h3>
+            <a href="" class="footer__list-link">Кредитная история</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__confidential">
+      <div class="footer__confidential-paragrapgh">Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, в объеме и целях, изложенных в
+        <a href="" class="footer__confidential-link">Политика конфиденциальности, Пользовательское соглашение</a>
+      </div>
+      <div class="footer__confidential-paragrapgh">ИП Булатов Р.О. ИНН: 423082922740. ОГРНИП: 318420500081301. Содержание сайта не является рекомендацией или офертой, вся информация носит ознакомительный характер.
+        При использовании материалов гиперссылка на Займ.me обязательна. </div>
+    </div>
+  </div>
+</footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
