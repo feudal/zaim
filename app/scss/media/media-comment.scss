@@ -21,7 +21,9 @@
 
      &__content {}
 
-     &__textarea {}
+     &__textarea {
+      padding: 10px;
+     }
 
      &__button {
        width: 100%;
@@ -293,3 +295,4 @@
  }
 
  /*****--------------------form-review-----------------*****/
+
