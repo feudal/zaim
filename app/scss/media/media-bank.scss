@@ -1,0 +1,101 @@
+/*****--------------------container-left-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .container-left {
+    padding-right: 265px;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-left {
+    padding: 0 15px;
+  }
+}
+
+/*****--------------------container-left-----------------*****/
+
+
+@media only screen and (max-width: 768px) {
+  .aside-subject {
+    display: none;
+  }
+}
+
+/*****--------------------contact-list-----------------*****/
+@media only screen and (max-width: 640px) {
+  .slide-menu {
+    &__inner {}
+
+    &__item {
+      margin-right: 25px;
+
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slide-menu {
+    &__inner {
+      width: 150%;
+    }
+
+    &__item {
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .slide-menu {
+    &__inner {
+      width: 170%;
+    }
+
+    &__item {
+      &--active {}
+    }
+  }
+}
+
+/*****--------------------contact-list-----------------*****/
+
+/*****--------------------statistics-bank----------------*****/
+@media only screen and (max-width: 480px) {
+  .statistics {
+    &__list {}
+
+    &__list-item {
+      &--center {
+        align-items: flex-start;
+      }
+    }
+
+    &__title {}
+
+    &__nr {
+      font-size: 25px;
+      line-height: 25px;
+      margin-bottom: 0;
+    }
+
+    &__words {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+}
+
+/*****--------------------statistics-bank----------------*****/
+
+/*****--------------------map iframe-----------------*****/
+@media only screen and (max-width: 480px) {
+  .map {
+    iframe {
+      height: 550px;
+      border: 1px solid red;
+    }
+  }
+}
+
+/*****--------------------map iframe-----------------*****/

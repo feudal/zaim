@@ -1,0 +1,573 @@
+/*****--------------------breadcrumbs-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .breadcrumbs {
+    // display: none;
+    font-size: 0;
+    height: 20px;
+      }
+}
+
+/*****--------------------breadcrumbs-----------------*****/
+
+/*****--------------------answer-----------------*****/
+@media only screen and (max-width: 480px) {
+  .answers {
+    padding-bottom: 25px;
+
+    &__title {}
+
+    &__list {}
+
+    &__list-item {
+      padding-left: 30px;
+    }
+
+    &__list-title {
+      margin: 12px 0;
+    }
+
+    &__chevron {}
+
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+
+      p {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+/*****--------------------answer-----------------*****/
+
+/*****--------------------cities-----------------*****/
+@media only screen and (max-width: 768px) {
+  .cities {
+    &__line {}
+
+    &__title {}
+
+    &__cities {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__cities-list {}
+
+    &__cities-link {
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cities {
+    &__line {}
+
+    &__title {}
+
+    &__cities {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__cities-list {}
+
+    &__cities-link {
+      &--active {}
+    }
+  }
+}
+
+/*****--------------------cities-----------------*****/
+
+/*****--------------------redactor-----------------*****/
+
+@media only screen and (max-width: 640px) {
+  .redactor {
+    &__inner {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__right {}
+
+    &__img {}
+
+    &__group {}
+
+    &__name {}
+
+    &__post {}
+
+    &__left {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    &__thumbs {}
+
+    &__thumbs-up {
+      &::before {
+        margin-right: 5px;
+      }
+    }
+
+    &__thumbs-down {
+      &::before {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .redactor {
+    &__inner {}
+
+    &__right {}
+
+    &__img {}
+
+    &__group {}
+
+    &__name {}
+
+    &__post {}
+
+    &__left {}
+
+    &__thumbs {}
+
+    &__thumbs-up {}
+
+    &__thumbs-down {}
+  }
+}
+
+/*****--------------------redactor-----------------*****/
+
+/*****--------------------aside-----------------*****/
+@media only screen and (max-width: 1200px) {
+  .aside {
+    &__subscribe {
+      padding: 16px 16px 30px;
+    }
+
+    &__title {}
+
+    &__input {}
+
+    &__button {}
+
+    &__lists {
+      padding: 16px 16px 30px;
+    }
+
+    &__list-title {}
+
+    &__list {}
+
+    &__list-item {
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .aside {
+    width: 230px;
+
+    &__subscribe {}
+
+    &__title {}
+
+    &__input {}
+
+    &__button {}
+
+    &__lists {}
+
+    &__list-title {}
+
+    &__list {}
+
+    &__list-item {
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-wrapper {
+    display: block;
+  }
+
+  .aside {
+    width: 100%;
+    margin-top: 20px;
+
+    &__subscribe {}
+
+    &__title {}
+
+    &__input {}
+
+    &__button {}
+
+    &__lists {}
+
+    &__list-title {}
+
+    &__list {}
+
+    &__list-item {
+      &--active {}
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .aside {
+    &__subscribe {}
+
+    &__title {}
+
+    &__input {}
+
+    &__button {}
+
+    &__lists {}
+
+    &__list-title {}
+
+    &__list {}
+
+    &__list-item {
+      &--active {}
+    }
+  }
+}
+
+/*****--------------------aside-----------------*****/
+
+/*****--------------------left-block-----------------*****/
+@media only screen and (max-width: 1200px) {
+  .left-block {
+
+    &__menu {}
+
+    &__menu-item {
+      &--active {}
+    }
+
+    &__menu-button {}
+
+    &__list {}
+
+    &__list-item {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-row-gap: 20px;
+    }
+
+    &__company {
+      grid-column: 1/4;
+      order: 1;
+    }
+
+    &__logo {}
+
+    &__info {
+      text-align: left;
+
+      br {
+        display: none;
+      }
+    }
+
+    &__procent {
+      grid-column: 1/3;
+      order: 3;
+    }
+
+    &__title {}
+
+    &__total {
+      grid-column: 3/5;
+      order: 4;
+    }
+
+    &__period {
+      grid-column: 5/-1;
+      order: 5;
+
+    }
+
+    &__commit {
+      grid-column: -3/-1;
+      order: 2;
+    }
+
+    &__button {}
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .left-block {
+    width: calc(100% - 250px);
+
+    &__menu {}
+
+    &__menu-item {
+      &--active {}
+    }
+
+    &__menu-button {}
+
+    &__list {}
+
+    &__list-item {}
+
+    &__company {}
+
+    &__logo {}
+
+    &__info {}
+
+    &__procent {}
+
+    &__title {}
+
+    &__total {}
+
+    &__period {}
+
+    &__commit {}
+
+    &__button {}
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left-block {
+    width: 100%;
+
+    &__menu {}
+
+    &__menu-item {
+      &--active {}
+    }
+
+    &__menu-button {}
+
+    &__list {}
+
+    // &__list-item {
+    // 	display: grid;
+    // 	grid-template-columns: repeat(3, 1fr);
+    // 	grid-row-gap: 0;
+
+    // 	padding: 10px 15px 20px;
+    // }
+    // &__company {
+    // 	grid-column: 1/4;
+    // 	order: 1;
+    // }
+    // &__logo {
+    // }
+    // &__info {
+    // }
+    // &__procent {
+    // 	grid-column: 1/2;
+    // 	order: 3;
+    // }
+    // &__title {
+    // }
+    // &__total {
+    // 	grid-column: 2/3;
+    // 	order:4;
+    // }
+    // &__period {
+    // 	grid-column: 3/4;
+    // 	order:5;
+
+    // }
+    // &__commit {
+    // 	grid-column: 1/4;
+    // 	order: 10;
+
+    // 	span {
+    // 		display: none;
+    // 	}
+
+    // }
+    // &__button {
+    // 	margin: 18px auto 0;
+    // }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .left-block {
+    &__menu {}
+
+    &__menu-item {
+      &--active {}
+    }
+
+    &__menu-button {}
+
+    &__list {}
+
+    &__list-item {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 0;
+
+      padding: 10px 15px 20px;
+    }
+
+    &__company {
+      grid-column: 1/4;
+      order: 1;
+    }
+
+    &__logo {}
+
+    &__info {}
+
+    &__procent {
+      grid-column: 1/2;
+      order: 3;
+      margin-bottom: auto;
+    }
+
+    &__title {}
+
+    &__total {
+      grid-column: 2/3;
+      order: 4;
+      margin-bottom: auto;
+    }
+
+    &__period {
+      grid-column: 3/4;
+      order: 5;
+      margin-bottom: auto;
+    }
+
+    &__commit {
+      grid-column: 1/4;
+      order: 10;
+
+      span {
+        display: none;
+      }
+
+    }
+
+    &__button {
+      margin: 18px auto 0;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .left-block {
+    &__menu {}
+
+    &__menu-item {
+      &--active {}
+    }
+
+    &__menu-button {}
+
+    &__list {}
+
+    &__list-item {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 0;
+
+      padding: 10px 15px 20px;
+    }
+
+    &__company {
+      grid-column: 1/2;
+      order: 1;
+    }
+
+    &__logo {}
+
+    &__info {}
+
+    &__procent {
+      grid-column: 1/2;
+      order: 3;
+      margin-bottom: auto;
+    }
+
+    &__title {}
+
+    &__total {
+      grid-column: 1/2;
+      order: 4;
+      margin-bottom: auto;
+    }
+
+    &__period {
+      grid-column: 1/2;
+      order: 5;
+      margin-bottom: auto;
+    }
+
+    &__commit {
+      grid-column: 1/2;
+      order: 10;
+
+      span {
+        display: none;
+      }
+
+    }
+
+    &__button {
+      margin: 18px auto 0;
+    }
+  }
+}
+
+/*****--------------------left-block-----------------*****/
+
+/*****--------------------left-block_menu-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .left-block {
+    &__menu {}
+
+    &__menu-item {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .left-block {
+    &__menu {
+    	display: none;
+    }
+
+    &__menu-item {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
+
+/*****--------------------left-block_menu-----------------*****/
+

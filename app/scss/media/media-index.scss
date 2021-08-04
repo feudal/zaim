@@ -1,0 +1,885 @@
+/*****--------------------services-----------------*****/
+@media only screen and (max-width: 1200px) {
+  .services {
+    &__title {
+      margin-top: 10px;
+
+      &--blue {}
+    }
+
+    &__subtitle {}
+
+    &__cards {
+      grid-template-columns: repeat(4, 1fr);
+      grid-row-gap: 23px;
+      grid-column-gap: 23px;
+      margin-top: 23px;
+    }
+
+    &__cards-link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 60px;
+    }
+
+    &__card-icons {}
+
+    &__card-title {
+      margin-top: 0;
+      margin-left: auto;
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    &__title {
+      &--blue {}
+    }
+
+    &__subtitle {}
+
+    &__cards {
+      grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    &__cards-link {}
+
+    &__card-icons {}
+
+    &__card-title {}
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .services {
+    padding-bottom: 23px;
+
+    &__title {
+      font-size: 30px;
+      line-height: 40px;
+
+      &--blue {}
+    }
+
+    &__subtitle {
+      font-size: 14px;
+      line-height: 18px;
+
+      br {
+        display: none;
+      }
+    }
+
+    &__cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 10px;
+      grid-column-gap: 33px;
+    }
+
+    &__cards-link {
+      padding: 10px;
+    }
+
+    &__card-icons {}
+
+    &__card-title {}
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .services {
+    &__title {
+      font-size: 25px;
+      line-height: 140%;
+
+      &--blue {}
+    }
+
+    &__subtitle {
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    &__cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+
+      margin-top: 12px;
+    }
+
+    &__cards-link {
+      padding: 10px;
+    }
+
+    &__card-icons {}
+
+    &__card-title {
+      font-size: 11px;
+      line-height: 13px;
+    }
+  }
+}
+
+/*****--------------------services-----------------*****/
+
+/*****--------------------exchange-rate-----------------*****/
+@media only screen and (max-width: 1200px) {
+  .exchage-rate {
+    margin-top: 32px;
+
+    &__table {}
+
+    &__tr {}
+
+    &__th {}
+
+    &__valute {}
+
+    &__buy {}
+
+    &__up {}
+
+    &__bank {}
+
+    &__sell {}
+
+    &__down {}
+
+    &__central-bank {}
+
+    &__converter {}
+  }
+
+  .container {}
+
+  .block {
+    &__top {
+      margin-bottom: 5px;
+    }
+
+    &__title {}
+
+    &__link {}
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .exchage-rate {
+    margin-top: 26px;
+
+    &__table {}
+
+    &__tr {}
+
+    &__th {}
+
+    &__valute {}
+
+    &__buy {}
+
+    &__up {}
+
+    &__bank {
+      display: none;
+    }
+
+    &__sell {}
+
+    &__down {}
+
+    &__central-bank {
+      span {
+        display: none;
+      }
+    }
+
+    &__converter {
+      width: 176px;
+    }
+  }
+
+  .container {}
+
+  .block {
+    &__top {
+      margin-bottom: 0;
+    }
+
+    &__title {}
+
+    &__link {}
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .exchage-rate {
+    margin-bottom: 25px;
+
+
+    &__table {}
+
+    &__tr {}
+
+    &__th {
+      &:last-child {
+        display: none;
+      }
+    }
+
+    &__valute {
+      width: auto;
+    }
+
+    &__buy {}
+
+    &__up {}
+
+    &__bank {}
+
+    &__sell {}
+
+    &__down {}
+
+    &__central-bank {}
+
+    &__converter {
+      display: none;
+    }
+
+    /*****--------------------new-elements-----------------*****/
+    &__wrapper-mobile {
+      display: flex;
+    }
+
+    &__converter-mobile {}
+
+  }
+
+  .link-mobile {
+    display: inline-flex;
+  }
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .exchage-rate {
+    &__th {
+      font-size: 13px;
+      line-height: 15px;
+    }
+
+    td {
+      font-size: 13px;
+      line-height: 15px;
+    }
+
+    &__valute {
+      font-size: 20px !important;
+      line-height: 23px !important;
+    }
+
+    &__wrapper-mobile {
+      margin-top: 5px;
+    }
+
+    &__converter-mobile {}
+  }
+
+  .block {
+    &__title {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}
+
+/*****--------------------exchange-rate-----------------*****/
+
+/*****--------------------offers-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .offers {
+    &__menu-wrapper {
+      width: 100%;
+      overflow-x: scroll;
+    }
+
+    &__menu {
+      width: 200%;
+      overflow-y: hidden;
+    }
+
+    &__item {}
+
+    &__links {
+      padding-bottom: 12px;
+
+      &--active {}
+    }
+
+    &__cards {
+      overflow-x: scroll;
+    }
+
+    &__card {}
+
+    &__logo {}
+
+    &__mode {}
+
+    &__procent {}
+
+    &__total {}
+
+    &__info {}
+
+    &__button {}
+  }
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .offers {
+    &__menu {}
+
+    &__item {}
+
+    &__links {
+      &--active {}
+    }
+
+    &__cards {}
+
+    &__card {}
+
+    &__logo {}
+
+    &__mode {}
+
+    &__procent {}
+
+    &__total {}
+
+    &__info {}
+
+    &__button {}
+  }
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .offers {
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+    &__menu {}
+
+    &__item {}
+
+    &__links {
+      margin-right: 10px;
+
+      &--active {}
+    }
+
+    &__cards {
+      margin-bottom: 15px;
+    }
+
+    &__card {}
+
+    &__logo {}
+
+    &__mode {}
+
+    &__procent {}
+
+    &__total {}
+
+    &__info {}
+
+    &__button {}
+  }
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .offers {
+    &__menu {}
+
+    &__item {}
+
+    &__links {
+      &--active {}
+    }
+
+    &__cards {}
+
+    &__card {}
+
+    &__logo {}
+
+    &__mode {}
+
+    &__procent {}
+
+    &__total {}
+
+    &__info {}
+
+    &__button {}
+  }
+
+  .block {
+    &__top {}
+
+    &__title {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    &__link {}
+  }
+}
+
+/*****--------------------offers-----------------*****/
+
+/*****--------------------news-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .news {
+    &__menu-wrapper {}
+
+    &__menu {}
+
+    &__item {}
+
+    &__link {}
+
+    &__cards {
+      width: 100%;
+      overflow-x: scroll;
+    }
+
+    &__card {
+      width: 390px;
+    }
+
+    &__card-img {}
+
+    &__card-content {}
+
+    &__card-title {}
+
+    &__card-info {}
+
+    &__card-date {}
+
+    &__card-time {}
+
+    &__card-link {}
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .news {
+    padding-bottom: 25px;
+
+    &__menu-wrapper {
+      overflow-x: scroll;
+    }
+
+    &__menu {
+      width: 150%;
+    }
+
+    &__item {
+      padding-bottom: 12px;
+    }
+
+    &__link {}
+
+    &__cards {
+      width: 100%;
+      overflow-x: scroll;
+      margin-bottom: 15px;
+    }
+
+    &__card {
+      width: 350px;
+    }
+
+    &__card-img {}
+
+    &__card-content {}
+
+    &__card-title {}
+
+    &__card-info {}
+
+    &__card-date {}
+
+    &__card-time {}
+
+    &__card-link {}
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .news {
+    &__menu {
+      width: 200%;
+    }
+
+    &__item {}
+
+    &__link {}
+
+    &__cards {
+
+      grid-gap: 10px;
+    }
+
+    &__card {
+      height: 200px;
+      width: 290px;
+
+      padding: 20px 25px;
+    }
+
+    &__card-img {}
+
+    &__card-content {}
+
+    &__card-title {}
+
+    &__card-info {}
+
+    &__card-date {}
+
+    &__card-time {}
+
+    &__card-link {
+      margin-top: 50px;
+    }
+  }
+}
+
+/*****--------------------news-----------------*****/
+
+/*****--------------------parteners-----------------*****/
+@media only screen and (max-width: 1200px) {
+  .partners {
+    &__banks {
+      width: 100%;
+      overflow-x: scroll;
+      padding-bottom: 5px;
+    }
+
+    &__bank {
+      min-width: 200px;
+      height: 75px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .partners {
+    padding-bottom: 25px;
+
+    &__banks {
+      margin-bottom: 15px;
+      margin-top: 12px;
+    }
+
+    &__bank {
+      width: 122px;
+      height: 75px;
+      padding: 10px;
+    }
+  }
+
+  .container {}
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .partners {
+    padding-bottom: 0;
+
+    &__banks {
+      margin-bottom: 15px;
+    }
+
+    &__bank {}
+  }
+
+  .container {}
+
+  .block {
+    &__top {}
+
+    &__title {}
+
+    &__link {}
+  }
+
+}
+
+/*****--------------------parteners-----------------*****/
+
+/*****--------------------reviews-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .reviews {
+    padding-bottom: 25px;
+
+    &__slider {
+    }
+
+    &__block {
+    	padding: 20px 15px;
+    }
+
+    &__top {
+    	align-items:flex-start;
+    }
+
+    &__info {
+    	display: flex;
+    	flex-wrap: wrap;
+    	position: relative;
+    	top: -5px;
+    }
+
+    &__date {
+    	margin-right: 6px;
+    }
+
+    &__time {
+    	margin-right: 5px;
+    }
+
+    &__bank {
+    	margin-left: 0;
+    }
+
+    &__rating {}
+
+    &__digit {
+    	width: 40px;
+    }
+
+    &__stars {}
+
+    &__content {}
+
+    &__title {
+    	margin-top: 10px;
+    }
+
+    &__text {}
+
+    &__button {}
+  }
+
+  .slick-arrow {
+  	display: none;
+  }
+}
+
+/*****--------------------reviews-----------------*****/
+
+/*****--------------------statistics-----------------*****/
+@media only screen and (max-width: 1200px) {.statistics {
+	&__list {
+		font-size: 15px;
+line-height: 25px;
+width: calc(100vw - 30px);
+
+	}
+	&__list-item {
+	}
+	&__nr {
+	}
+	&__words {
+	}
+}
+}
+@media only screen and (max-width: 900px) {.statistics {
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-gap: 64px;
+		padding: 0 50px;
+	}
+	&__list-item {
+	}
+	&__nr {
+	}
+	&__words {
+	}
+}
+}
+@media only screen and (max-width: 640px) {.statistics {
+	padding: 30px 0;
+	&__list {
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 30px;
+		padding: 0 12px;
+	}
+	&__list-item {
+	}
+	&__nr {
+		margin-bottom: 10px;
+	}
+	&__words {
+		font-size: 15px;
+line-height: 22px;
+	}
+}
+}
+@media only screen and (max-width: 380px) {.statistics {
+	&__list {
+		padding: 0;
+	}
+	&__list-item {
+	}
+	&__nr {
+	}
+	&__words {
+	}
+}
+}
+/*****--------------------statistics-----------------*****/
+
+/*****--------------------info-block-----------------*****/
+@media only screen and (max-width: 786px) {
+	.info-block {
+		margin-bottom: 20px;
+	&__title {
+		font-size: 20px;
+line-height: 28px;
+	}
+	&__text {
+	}
+	&__list {
+	}
+	&__list-item {
+		&--dot {
+		}
+		&--number {
+		}
+	}
+}
+}
+@media only screen and (max-width: 640px) {
+	.info-block {
+	&__title {
+	}
+	&__text {
+		font-size: 14px;
+line-height: 22px;
+	}
+	&__list {
+	}
+	&__list-item {
+		font-size: 14px;
+line-height: 22px;
+		&--dot {
+		}
+		&--number {
+		}
+	}
+}
+}
+@media only screen and (max-width: 480px) {
+	.info-block {
+	&__title {
+	}
+	&__text {
+	}
+	&__list {
+	}
+	&__list-item {
+		&--dot {
+		}
+		&--number {
+		}
+	}
+}
+}
+@media only screen and (max-width: 320px) {
+	.info-block {
+	&__title {
+	}
+	&__text {
+	}
+	&__list {
+	}
+	&__list-item {
+		&--dot {
+		}
+		&--number {
+		}
+	}
+}
+}
+/*****--------------------info-block-----------------*****/

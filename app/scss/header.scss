@@ -1,0 +1,245 @@
+/*****--------------------header-----------------*****/
+.header {
+  &--grey {
+    background: $bg-grey;
+    padding-bottom: 20px;
+    
+  }
+
+  &__burger {
+    display: none;
+    height: 30px;
+    width: 30px;
+    background: url(../img/icons/header-burger.svg)  no-repeat center center;
+    margin-left: 20px;
+  }
+
+  &__inner {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #8A8A8A;
+  }
+
+  &__logo {}
+
+  &__curs {
+    display: flex;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $black;
+
+    margin-left: 32px;
+  }
+
+  &__curs-euro {
+    &::before {
+      content: '€';
+
+      color: $light-blue;
+      margin-right: 5px;
+    }
+  }
+
+  &__curs-dolar {
+    margin-left: 20px;
+
+    &::before {
+      content: '$';
+
+      color: $light-blue;
+      margin-right: 5px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+
+    margin-left: 80px;
+  }
+
+  &__menu-item {
+    padding: 0 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $dark-grey;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__location {
+    margin-left: auto;
+    display: flex;
+
+
+  }
+
+  &__location-now {
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $dark-grey;
+    border-bottom: 1px dashed $dark-grey;
+
+    &::before {
+      content: '';
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      background: url(../img/icons/map-pin.svg) no-repeat center center;
+      background-size: cover;
+
+      margin-right: 5px;
+    }
+  }
+
+  &__location-hidden {
+  	display: none;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+
+    background: $bg-white;
+    border-radius: 0px 0px 10px 10px;
+
+    width: 100%;
+
+  }
+
+  &__location-bg {
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba($dark-grey, .5);
+    opacity: .5;
+  }
+}
+
+.hidden {
+  &__inner {
+    position: relative;
+    margin-top: 26px;
+  }
+
+  &__close {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: url(../img/icons/close.svg) no-repeat center center;
+    position: absolute;
+    top: 0;
+
+    right: 0;
+
+  }
+
+  &__title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+  }
+
+  &__search {
+    position: relative;
+    margin-top: 16px;
+  }
+
+  &__input {
+    width: 100%;
+    background: rgba(238, 240, 245, 0.5);
+    border: 1px solid #C6CEDA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 48px;
+
+    padding-left: 50px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #7F7F7F;
+
+  }
+
+  &__find {
+    position: absolute;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border: 0;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    background-image: url(../img/icons/Search.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__cities {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__cities-list {
+    margin: 40px 0;
+
+    li {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__cities-link {
+  	cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+
+    transition: all .3s;
+
+    &:hover {
+      color: $light-blue;
+    }
+
+    &--active {
+      color: $light-blue;
+
+    }
+  }
+}
+
+
+/*****--------------------header-----------------*****/

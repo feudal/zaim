@@ -1,0 +1,170 @@
+/*****--------------------currency-----------------*****/
+@media only screen and (max-width: 768px) {
+  .curency {
+    &__table {}
+
+    &__tr {
+      &:first-child {
+        display: none;
+      }
+    }
+
+    &__th {}
+
+    &__td {
+
+      &--flex {}
+
+      &--up {}
+
+      &--down {}
+    }
+
+    &__td-img {
+      margin-right: 5px;
+    }
+
+    &__td-title {}
+
+    &__time {
+      display: none;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .curency {
+    &__td {
+      font-size: 13px;
+      line-height: 15px;
+      min-width: 64px;
+    }
+  }
+
+  .curency--short {
+
+    .curency__th {
+      font-size: 13px;
+      line-height: 15px;
+
+      &:nth-last-child(2) {
+        display: none;
+      }
+    }
+
+    .curency__td {
+      &:nth-last-child(2) {
+        display: none;
+      }
+
+      &:nth-last-child(3) {
+        display: none;
+      }
+      font-size: 13px;
+      line-height: 15px;
+
+      min-width: 60px;
+      padding: 20px 2px;
+    }
+  }
+}
+
+/*****--------------------currency-----------------*****/
+
+/*****--------------------exchange-----------------*****/
+@media only screen and (max-width: 640px) {
+  .exchage-rate {
+    margin: 10px 0;
+
+    &__tr {
+      &:first-child {
+        display: none;
+      }
+    }
+    &__th {
+      &:nth-last-child(3) {
+        display: none;
+      }
+
+      &:nth-last-child(2) {
+        display: none;
+      }
+
+    }
+
+    &__central-bank {
+      display: none;
+    }
+  }
+
+  .exchage-rate--short {
+    &--m-0 {}
+
+    &__table {}
+
+    &__tr {
+      &:first-child {
+        display: none;
+      }
+
+      &--top {}
+    }
+
+    &__th {
+
+      &:last-child {
+        display: none;
+      }
+
+      &:nth-last-child(2) {
+        display: none;
+      }
+
+      &:nth-last-child(3) {
+        display: none;
+      }
+
+      &--blue {}
+    }
+
+    &__valute {}
+
+    &__buy {}
+
+    &__up {}
+
+    &__bank {}
+
+    &__sell {}
+
+    &__down {}
+
+    &__central-bank {
+      display: none;
+    }
+
+    &__converter {}
+
+    &__wrapper-mobile {}
+
+    &__converter-mobile {}
+  }
+}
+
+/*****--------------------exchange-----------------*****/
+
+/*****--------------------chart-----------------*****/
+@media only screen and (max-width: 640px) {
+  .chart {
+    &__table {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
+@media only screen and (max-width: 380px) {
+
+}
+
+/*****--------------------chart-----------------*****/

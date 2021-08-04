@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Comment</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    @@include('./components/header.html')
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link breadcrumbs__link--blue">Назад к отзывам</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+      <!--                         block                         -->
+      <div class="flex-wrapper">
+        <div class="block">
+          <div class="main main--with-line">
+            <div class="main__top">
+              <h1 class="main__title">Пользовалась один раз</h1>
+              <div class="main__star-info">
+                <span>4 из 5</span>
+                <div class="reviews__stars">
+                  <div class="star star--active"></div>
+                  <div class="star star--active"></div>
+                  <div class="star star--active"></div>
+                  <div class="star star--active"></div>
+                  <div class="star"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="user">
+            <div class="user__info">
+              <div class="user__logo"><img src="img/user.png" alt=""></div>
+              <div class="user__group">
+                <div class="user__name">Елена</div>
+                <div class="user__loc">Москва</div>
+              </div>
+            </div>
+            <div class="user__time">
+              <div class="user__date"> 12.11.2020</div>
+              <div class="user__hour">08:00</div>
+            </div>
+          </div>
+          <div class="info-block__text">
+            <p>Я работаю неофициально, поэтому ни вещи в кредит, ни ссуду в банке мне не дают - там требуется справка с работы. И тут сломался компьютер. Понятно, что новый я не потяну, а на ремонт срочно потребовались деньги. Работаю дома на компьютере, поэтому без него - как без рук.</p>
+            <p>Слышала по МФО, решила обратиться, несмотря на большие проценты. Мастер пообещал отремонтировать технику за 3 дня. А займ дают на месяц. Решила, что уж за 3 недели точно заработаю достаточно, чтобы погасить задолженность.</p>
+            <p>Выбирая среди организаций, обратила внимание на МФО «Турбозайм». Процент - низкий, срок достаточно большой. Запонила анкету и отправила на одобрение. Несмотря на отсутствие официального места работы, заявку одобрили, займ предоставили.</p>
+            <p>Для погашения пользовалась личным кабинетом. Быстро, удобно. Займ погасила раньше срока, поэтому не пришлось переплачивать за оставшиеся дни. Если потребуется, вновь воспользуюсь этой МФО.</p>
+          </div>
+          <!--                         comments                         -->
+          <div class="comments">
+            <div class="block__top block__top--start">
+              <h2 class="block__title">Комментарии</h2>
+              <div class="block__logo block__logo--comments">1</div>
+            </div>
+            <form class="comments-form">
+              <div class="comments-form__logo">
+                <img src="img/user.png" alt="">
+              </div>
+              <div class="comments-form__content">
+                <textarea class="comments-form__textarea" placeholder="Ваш комментарий"></textarea>
+                <input type="submit" class="comments-form__button button button--transparent" value="Комментировать">
+              </div>
+            </form>
+            <div class="comments-block">
+              <div class="comments-block__logo"><img src="img/user.png" alt=""></div>
+              <div class="comments-block__content">
+                <div class="comments-block__top">
+                  <div class="comments-block__name">Юлия</div>
+                  <div class="comments-block__date">15.01.2021</div>
+                </div>
+                <div class="comments-block__text">
+                  <p>Председатель думского комитета по финансовому рынку Анатолий Аксаков - вор и враль в кубе с долларовыми счетами за границей.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--                         comments                         -->
+        </div>
+        <aside class="aside">
+          <div class="aside__block">
+            <div class="aside__company">
+              <div class="aside__logo">
+                <img src="img/partners/green-money.png" alt="">
+              </div>
+              <div class="aside__name">ООО МКК «Макро»</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Сайт:</h3>
+            <a href="" class="aside__link">moneza.ru</a>
+            <h3 class="aside__info-title">Телефон:</h3>
+            <a href="tel:+7-495-968-76-54" class="aside__link">+7-495-968-76-54</a>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Регистрационный номер:</h3>
+            <div class="aside__info">1603045007582</div>
+            <h3 class="aside__info-title">КПП:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ИНН:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ОГРН:</h3>
+            <div class="aside__info">1167746181790</div>
+            <h3 class="aside__info-title">Юридический адрес:</h3>
+            <div class="aside__info">107078, Москва,<br> ул. Каланчевская, 27</div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Рассмотрение: <span>круглосуточно</span></h3>
+            <a href="" class="aside__button button button--gradient">Подать заявку</a>
+          </div>
+        </aside>
+      </div>
+      <!--                         block                         -->
+    </div>
+    <!--                         reviews                         -->
+    <div class="reviews">
+      <div class="container-left">
+        <div class="block__top">
+          <h2 class="block__title">Последние отзывы о Moneza</h2>
+        </div>
+        <div class="margin-40"></div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <a href="" class="reviews__block-link">Больше отзывов</a>
+      </div>
+    </div>
+    <!--                         reviews                         -->
+    <!--                         form-review                         -->
+    <div class="container-left">
+      <div class="form-review__wrapper">
+        <div class="block">
+          <div class="block__top">
+            <h2 class="block__title">Оставить отзыв</h2>
+          </div>
+          <h3 class="block__subtitle">Ваш адрес email не будет опубликован.</h3>
+        </div>
+        <form class="form-review">
+          <div class="form-review__group">
+            <input type="text" class="form-review__input" placeholder="Имя ">
+            <input type="text" class="form-review__input" placeholder="Москва">
+            <input type="text" class="form-review__input" placeholder="noname@mail.ru">
+            <input type="text" class="form-review__input" placeholder="Тема ">
+          </div>
+          <textarea class="form-review__textarea" placeholder="Опишите Ваш опыт взаимодействия с МФО "></textarea>
+          <div class="form-review__group">
+            <div class="form-review__info">
+              <h3 class="form-review__info-title">Ваша оценка работы компании </h3>
+              <div class="reviews__stars form-review__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+            <div class="form-review__submit">
+              <input type="submit" class="form-review__button button button--gradient" value="Отправить отзыв">
+              <!--                         checkbox                         -->
+              <label class="checkbox-label form-review__checkbox">
+                <input type="checkbox" class="checkbox" checked>
+                <span class="checkbox-fake"></span>
+                <div class="form-review__agreement">
+                  <span>Нажимая кнопку "Отправить отзыв" я даю согласие на </span>
+                  <a href="" class="form-review__link">обработку персональных данных </a>
+                </div>
+              </label>
+              <!--                         checkbox                         -->
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--                         form-review                         -->
+  </main>
+  @@include('./components/footer.html')
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

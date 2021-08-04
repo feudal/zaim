@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Bank</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    @@include('./components/header.html')
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="" class="breadcrumbs__link">Банки</a></li>
+        <li><a href="" class="breadcrumbs__link">Альфа-Банк</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+    </div>
+    <!--                         aside                         -->
+    <div class="container">
+      <div class="container-left">
+      </div>
+      <div id="aside-bank">
+        <aside class="aside aside--absolute">
+          <div class="aside__block">
+            <div class="aside__company">
+              <div class="aside__logo">
+                <img src="img/partners/green-money.png" alt="">
+              </div>
+              <div class="aside__name">ООО МКК «Макро»</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Сайт:</h3>
+            <a href="" class="aside__link">moneza.ru</a>
+            <h3 class="aside__info-title">Телефон:</h3>
+            <a href="tel:+7-495-968-76-54" class="aside__link">+7-495-968-76-54</a>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Регистрационный номер:</h3>
+            <div class="aside__info">1603045007582</div>
+            <h3 class="aside__info-title">КПП:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ИНН:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ОГРН:</h3>
+            <div class="aside__info">1167746181790</div>
+            <h3 class="aside__info-title">Юридический адрес:</h3>
+            <div class="aside__info">107078, Москва,<br> ул. Каланчевская, 27</div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Рассмотрение: <span>круглосуточно</span></h3>
+            <a href="" class="aside__button button button--gradient">Подать заявку</a>
+          </div>
+          <!--                         aside-subject                         -->
+          <div class="aside-subject">
+            <h3 class="aside-subject__title">Содержание</h3>
+            <ul class="aside-subject__list">
+              <li class="aside-subject__item">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>О банке</span>
+              </li>
+              <li class="aside-subject__item aside-subject__item--active">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Кредиты</span>
+              </li>
+              <li class="aside-subject__item">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Курсы валют</span>
+              </li>
+              <li class="aside-subject__item">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Условия кредита</span>
+              </li>
+              <li class="aside-subject__item">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Банк на карте</span>
+              </li>
+              <li class="aside-subject__item">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0493 22C17.5949 22 22.0905 17.5228 22.0905 12C22.0905 6.47715 17.5949 2 12.0493 2C6.50376 2 2.00818 6.47715 2.00818 12C2.00818 17.5228 6.50376 22 12.0493 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10.0411 16L14.0576 12L10.0411 8" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>Отзывы</span>
+              </li>
+            </ul>
+          </div>
+          <!--                         aside-subject                         -->
+        </aside>
+      </div>
+    </div>
+    <!--                         aside                         -->
+    </div>
+    <!--                         block                         -->
+    <div class="container-left">
+      <div class="main">
+        <div class="main__top">
+          <h1 class="main__title">Альфа-Банк в <span>Санкт-Петербурге</span></h1>
+          <div class="main__date">Обновлено 23.11.2020</div>
+        </div>
+        <div class="main__text">
+          <p>Альфа-Банк — один из крупнейший банков России по объему активов по данным рейтингов Forbes и РБК.
+            Имеет около 800 отделений и офисов более чем в 100 городах России. Главный офис компании — в Москве.</p>
+        </div>
+        <ul class="left-block__menu">
+          <li class="left-block__menu-item left-block__menu-item--active">Все</li>
+          <li class="left-block__menu-item">По сумме</li>
+          <li class="left-block__menu-item">По сроку</li>
+          <li class="left-block__menu-item">По процентам</li>
+          <li class="left-block__menu-item">По возрасту</li>
+          <li class="left-block__menu-button"></li>
+        </ul>
+        <ul class="left-block__list">
+          <li class="left-block__list-item">
+            <div class="left-block__company">
+              <div class="left-block__info">Кредитная карта <br> 100 дней без %</div>
+            </div>
+            <div class="left-block__total">
+              <h3 class="left-block__title">Сумма, ₽</h3>
+              <span>от 2000</span>
+            </div>
+            <div class="left-block__procent">
+              <h3 class="left-block__title">Ставка в день</h3>
+              <span>от 0.3%</span>
+            </div>
+            <div class="left-block__period">
+              <h3 class="left-block__title">Срок</h3>
+              <span>1095 дн.</span>
+            </div>
+            <div class="left-block__commit">
+              <a href="" class="left-block__button button button--gradient">Подать заявку</a>
+              <span>123233 заявок</span>
+            </div>
+          </li>
+          <li class="left-block__list-item">
+            <div class="left-block__company">
+              <div class="left-block__info">Кредитная карта <br> 100 дней без %</div>
+            </div>
+            <div class="left-block__total">
+              <h3 class="left-block__title">Сумма, ₽</h3>
+              <span>от 2000</span>
+            </div>
+            <div class="left-block__procent">
+              <h3 class="left-block__title">Ставка в день</h3>
+              <span>от 0.3%</span>
+            </div>
+            <div class="left-block__period">
+              <h3 class="left-block__title">Срок</h3>
+              <span>1095 дн.</span>
+            </div>
+            <div class="left-block__commit">
+              <a href="" class="left-block__button button button--gradient">Подать заявку</a>
+              <span>123233 заявок</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--                         exchage-rate                         -->
+    <div class="exchage-rate exchage-rate--grey">
+      <div class="container-left">
+        <div class="block__top">
+          <h2 class="block__title">Курсы валют Альфа-Банка в Санкт-Петербурге</h2>
+        </div>
+        <table class="exchage-rate__table">
+          <tr class="exchage-rate__tr">
+            <th class="exchage-rate__th">Валюта</th>
+            <th class="exchage-rate__th">Покупка</th>
+            <th class="exchage-rate__th">Продажа</th>
+            <th class="exchage-rate__th">Конвертер валют</th>
+          </tr>
+          <tr class="exchage-rate__tr">
+            <td class="exchage-rate__valute">USD</td>
+            <td class="exchage-rate__buy">
+              <span class="exchage-rate__up">77,41</span>
+            <td class="exchage-rate__sell">
+              <span class="exchage-rate__down">77,35</span>
+            <td class="exchage-rate__converter">
+              <input type="number" placeholder="1" min="1" max="10">
+            </td>
+          </tr>
+          <tr class="exchage-rate__tr">
+            <td class="exchage-rate__valute">EUR</td>
+            <td class="exchage-rate__buy">
+              <span class="exchage-rate__up">91,38</span>
+            <td class="exchage-rate__sell">
+              <span class="exchage-rate__down">91,05</span>
+            <td class="exchage-rate__converter">
+              <input type="number" placeholder="1" min="1" max="10">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--                         exchage-rate                         -->
+    <div class="container-left">
+      <h2 class="info-block__title">Условия кредита</h2>
+      <div class="info-block__text">
+        <p>Альфа-Банк в Санкт-Петербурге предлагает широкий перечень услуг. На нашем сайте вы можете узнать, где открыть вклад, оформить кредитную карту. </p>
+        <p>Для тех, кто еще не определился с банком предлагаем сравнить рейтинг с другими популярными учреждениями по активам, кредитам, активам и депозитам. С помощью сервиса можно узнать, где находятся ближайшие банкоматы Альфа-Банка в Санкт-Петербурге. Пользователи могут выбрать и филиал, в котором предложен комплекс услуг для обслуживания юридических лиц.</p>
+        <p>Предоставление кредита осуществляется путем зачисляется на cчет Кредитной карты, открываемый в Банке по заявлению заемщика, в сумме совершенной операции в пределах лимита кредитования, установленного заключенным договором потребительского кредита. К cчету Кредитной карты Альфа-Банка выпускается Кредитная карта, являющаяся электронным средством платежа. Кредит так же может быть оформлен наличными, а так же с доставкой на дом. В случае ипотеки, денежные средства перечисляются застройщику.</p>
+        <p>Документы для оформления:</p>
+      </div>
+      <ul class="info-block__list">
+        <li class="info-block__list-item info-block__list-item--dot">
+          <p>паспорт РФ;</p>
+        </li>
+        <li class="info-block__list-item info-block__list-item--dot">
+          <p>анкета;</p>
+        </li>
+        <li class="info-block__list-item info-block__list-item--dot">
+          <p>документ, подтверждающий доход заёмщика.</p>
+        </li>
+      </ul>
+      <div class="info-block__text">
+        <p>Стоимость обслуживания карты (руб. в год.) зависит от категории карты и регулируется тарифным сборником. Может составлять от 0 рублей до 11 990 рублей.</p>
+      </div>
+    </div>
+    <!--                         block                         -->
+    <!--                         statisticcs                         -->
+    <div class="statistics">
+      <div class="container-left">
+        <ul class="statistics__list">
+          <li class="statistics__list-item statistics__list-item--center">
+            <h3 class="statistics__title">АКТИВЫ-НЕТТО</h3>
+            <div class="statistics__nr">4.6 ТРЛН</div>
+            <div class="statistics__words">рублей</div>
+          </li>
+          <li class="statistics__list-item statistics__list-item--center">
+            <h3 class="statistics__title">ДЕПОЗИТЫ</h3>
+            <div class="statistics__nr">1.3 ТРЛН</div>
+            <div class="statistics__words">рублей</div>
+          </li>
+          <li class="statistics__list-item statistics__list-item--center">
+            <h3 class="statistics__title">КРЕДИТЫ</h3>
+            <div class="statistics__nr">2.8 ТРЛН</div>
+            <div class="statistics__words">рублей</div>
+          </li>
+          <li class="statistics__list-item statistics__list-item--center">
+            <h3 class="statistics__title">УСТАВНОЙ КАПИТАЛ</h3>
+            <div class="statistics__nr">59.6 МЛРД</div>
+            <div class="statistics__words">рублей</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--                         statisticcs                         -->
+    <!--                         contact-list                         -->
+    <div class="contact-list">
+      <div class="container-left">
+        <div class="block__top">
+          <h2 class="block__title">Справочная информация</h2>
+        </div>
+        <div class="contact-list__slide-menu slide-menu">
+          <ul class="slide-menu__inner">
+            <li class="slide-menu__item slide-menu__item--active">Служба поддержки</li>
+            <li class="slide-menu__item">Реквзиты</li>
+            <li class="slide-menu__item">Документы</li>
+            <li class="slide-menu__item">Новости</li>
+          </ul>
+        </div>
+        <ul class="info-block__list">
+          <h3 class="info-block__list-title">Контакты:</h3>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Телефон: <a href="tel:+7-800-200-77-33" class="info-block__link">+7 800 200-77-33</a></p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Электронная почта: <a href="mail:info@alfabank.ru " class="info-block__link">info@alfabank.ru </a></p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Время работы: <span>08:00 – 22:00, без выходных </span></p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Адрес: <span>123100, г. Санкт-Петербург, ул. Кемская, д. 1</span></p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <a href="" class="info-block__link">Личный кабинет</a>
+          </li>
+        </ul>
+        <ul class="social social--left">
+          <li><a href="" class="social-link"><img src="img/social/Yandex-zen-black.svg " alt=""></a></li>
+          <li><a href="" class="social-link"><img src="img/social/vk-black.svg" alt=""></a></li>
+          <li><a href="" class="social-link"><img src="img/social/facebook-black.svg" alt=""></a></li>
+          <li><a href="" class="social-link"><img src="img/social/twitter-black.svg" alt=""></a></li>
+          <li><a href="" class="social-link"><img src="img/social/instagram-black.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--                         contact-list                         -->
+    <!--                         form-review                         -->
+    <div class="form-review__wrapper">
+      <div class="container-left">
+        <div class="block">
+          <div class="block__top">
+            <h2 class="block__title">Онлайн-заявка на кредит</h2>
+          </div>
+          <h3 class="block__subtitle">Пожалуйста, заполните все поля анкеты</h3>
+        </div>
+        <form class="form-review">
+          <div class="form-review__group">
+            <input type="text" class="form-review__input" placeholder="Фамилия Имя Отчество ">
+            <input type="text" class="form-review__input" placeholder="+7 (___) ___-__-___">
+            <input type="text" class="form-review__input" placeholder="Сумма">
+            <input type="text" class="form-review__input" placeholder="Адрес проживания ">
+            <input type="text" class="form-review__input" placeholder="ДД.ММ.ГГ">
+            <input type="text" class="form-review__input" placeholder="noname@mail.ru ">
+            <div class="form-review__submit">
+              <!--                         checkbox                         -->
+              <label class="checkbox-label form-review__checkbox">
+                <input type="checkbox" class="checkbox" checked>
+                <span class="checkbox-fake"></span>
+                <div class="form-review__agreement">
+                  <span>Нажимая кнопку "Отправить отзыв" я даю согласие на </span>
+                  <a href="" class="form-review__link">обработку персональных данных </a>
+                </div>
+              </label>
+              <!--                         checkbox                         -->
+            </div>
+            <input type="submit" class="form-review__button button button--gradient" value="Отправить отзыв">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--                         form-review                         -->
+    <!--                         map                         -->
+    <div class="map">
+      <div class="container-left">
+        <div class="block__top">
+          <h2 class="block__title">Где взять кредит Альфа-Банк в <a href="" class="block__link-title">Санкт-Петербурге</a> </h2>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d152260.90204023654!2d37.60814950585303!3d55.7489600593206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1626433591305!5m2!1sen!2s" width="100%" height="650px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <!--                         map                         -->
+    <!--                         reviews                         -->
+    <div class="reviews">
+      <div class="container-left">
+        <div class="block__top block__top--start">
+          <h2 class="block__title">Отзывы о кредитах</h2>
+          <span class="block__brackets">(177 отзывов)</span>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__top">
+            <div class="reviews__info">
+              <div class="reviews__date"> 12.11.2020</div>
+              <div class="reviews__time">08:00</div>
+              <a href="" class="reviews__bank">Moneza</a>
+            </div>
+            <div class="reviews__rating">
+              <div class="reviews__digit">4 из 5</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__content">
+            <h3 class="reviews__title">Пользовалась один раз</h3>
+            <div class="reviews__text">
+              <p>Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и профессионально. Спасибо таким отзывчивым и хорошим сотрудникам!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--                         reviews                         -->
+    <!--                         form-review                         -->
+    <div class="form-review__wrapper form-review__wrapper--grey">
+      <div class="container-left">
+        <div class="block">
+          <div class="block__top">
+            <h2 class="block__title">Оставить отзыв</h2>
+          </div>
+          <h3 class="block__subtitle">Ваш адрес email не будет опубликован.</h3>
+        </div>
+        <form class="form-review">
+          <div class="form-review__group">
+            <input type="text" class="form-review__input" placeholder="Имя ">
+            <input type="text" class="form-review__input" placeholder="Москва">
+            <input type="text" class="form-review__input" placeholder="noname@mail.ru">
+            <input type="text" class="form-review__input" placeholder="Тема ">
+          </div>
+          <textarea class="form-review__textarea" placeholder="Опишите Ваш опыт взаимодействия с МФО "></textarea>
+          <div class="form-review__group">
+            <div class="form-review__info">
+              <h3 class="form-review__info-title">Ваша оценка работы компании </h3>
+              <div class="reviews__stars form-review__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+            <div class="form-review__submit">
+              <input type="submit" class="form-review__button button button--gradient" value="Отправить отзыв">
+              <!--                         checkbox                         -->
+              <label class="checkbox-label form-review__checkbox">
+                <input type="checkbox" class="checkbox" checked>
+                <span class="checkbox-fake"></span>
+                <div class="form-review__agreement">
+                  <span>Нажимая кнопку "Отправить отзыв" я даю согласие на </span>
+                  <a href="" class="form-review__link">обработку персональных данных </a>
+                </div>
+              </label>
+              <!--                         checkbox                         -->
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--                         form-review                         -->
+    <div class="container">
+      <div id="aside-bank-mobile"></div>
+    </div>
+    <!--                         offers                         -->
+    <div class="offers offers--white">
+      <div class="container">
+        <div class="block__top">
+          <h2 class="block__title">Популярные предложения от других банков</h2>
+        </div>
+        <ul class="offers__cards">
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/otkritie.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/raifaizen.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/turbo-zaim.png" alt="">
+            </a>
+            <div class="offers__mode">Кредитная карта 100 дней <br> без %</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/green-money.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--                         offers                         -->
+  </main>
+  @@include('./components/footer.html')
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+.search {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 12px;
+
+  margin-bottom: 12px;
+
+  &__block {
+    display: flex;
+  }
+
+  &__input {
+    background: rgba(238, 240, 245, 0.5);
+    border: 1px solid #C6CEDA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-grow: 1;
+
+    margin-right: 20px;
+    padding: 12px 23px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+  }
+
+  &__button {
+    width: 250px;
+  }
+
+  &__letters {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.8em;
+    text-align: left;
+
+  }
+
+  &__letter-name {
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  &__letters-item {
+    display: block;
+    width: 15px;
+    margin-right: 5px;
+
+    text-align: center;
+    border-bottom: 1px solid transparent;
+
+    &--inactive {
+      pointer-events: none;
+      color: $grey;
+    }
+    &--active {
+      pointer-events: none;
+    	color: $light-blue;
+    }
+
+    &:hover {
+      border-bottom: 1px solid $black;
+    }
+  }
+}
+
+.pointers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 25px;
+  grid-column-gap: 42px;
+
+  &__item {}
+
+  &__title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: $light-blue;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+  }
+}

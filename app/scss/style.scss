@@ -1,0 +1,34 @@
+@import '_vars';
+@import '_global';
+@import '_libs';
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'zaim';
+@import 'product';
+@import 'comment';
+@import 'bank';
+@import 'news';
+@import 'wiki';
+@import 'bank-rating';
+@import 'authors';
+@import 'contact';
+@import 'curency';
+@import 'my-pikdate';
+
+@import 'media/media-components';
+@import 'media/media-index';
+@import 'media/media-zaim';
+@import 'media/media-product';
+@import 'media/media-mfo';
+@import 'media/media-comment';
+@import 'media/media-contact';
+@import 'media/media-news';
+@import 'media/media-authors';
+@import 'media/media-bank';
+@import 'media/media-currency';
+@import 'media/media-wiki';
+
+body {
+	font-family: sans-serif;
+}

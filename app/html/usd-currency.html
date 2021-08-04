@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>Currency</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    @@include('./components/header.html')
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="" class="breadcrumbs__link">Курсы валют</a></li>
+        <li><a href="" class="breadcrumbs__link">Курс доллара</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+      <div class="main">
+        <div class="main__top">
+          <h1 class="main__title">Курсы валют</h1>
+          <div class="main__calendar">
+            <input type="text" id="datepicker" autocomplete="off">
+          </div>
+        </div>
+      </div>
+      <!--                         exchage-rate                         -->
+      <div class="exchage-rate exchage-rate--m-0">
+        <table class="exchage-rate__table">
+          <tr class="exchage-rate__tr">
+            <th class="exchage-rate__th">Валюта</th>
+            <th class="exchage-rate__th">Покупка</th>
+            <th class="exchage-rate__th">Продажа</th>
+            <th class="exchage-rate__th">20.01.21</th>
+            <th class="exchage-rate__th">21.01.21</th>
+            <th class="exchage-rate__th">Конвертер валют</th>
+          </tr>
+          <tr class="exchage-rate__tr">
+            <td class="exchage-rate__valute">USD</td>
+            <td class="exchage-rate__buy">
+              <span class="exchage-rate__up">77,41</span>
+              <a href="" class="exchage-rate__bank">Заубер банк</a></td>
+            <td class="exchage-rate__sell">
+              <span class="exchage-rate__down">77,35</span>
+              <a href="" class="exchage-rate__bank">Ак Барс Банк</a></td>
+            <td class="exchage-rate__central-bank">
+              <div class="exchage-rate__up">77,41</div>
+              <span>за 1 доллар США</span>
+            </td>
+            <td class="exchage-rate__central-bank">
+              <div class="exchage-rate__up">77,41</div>
+              <span>за 1 доллар США</span>
+            </td>
+            <td class="exchage-rate__converter">
+              <input type="number" placeholder="1" min="1" max="10">
+            </td>
+          </tr>
+        </table>
+                <div class="exchage-rate__wrapper-mobile">
+          <a href="" class="exchage-rate__converter-mobile">Конвертер</a>
+        </div>
+      </div>
+      <!--                         exchage-rate                         -->
+    </div>
+    <div class="container-left">
+      <div class="aside aside--absolute">
+        <form class="aside__subscribe">
+          <h2 class="aside__title">Рассылка курсов валют</h2>
+          <h2 class="aside__title">Подпишись на рассылку выгодных курсов валют</h2>
+          <select class="aside__select">
+            <option class="aside__option">USD</option>
+            <option class="aside__option">EUR</option>
+          </select>
+          <input type="text" class="aside__input" placeholder="Имя">
+          <input type="text" class="aside__input" placeholder="Email">
+          <input type="text" class="aside__button button button--transparent" value="Подписаться">
+        </form>
+      </div>
+      <!--                         curency                         -->
+      <div class="curency">
+        <table class="curency__table">
+          <tr class="curency__tr">
+            <th class="curency__th">Банк</th>
+            <th class="curency__th">Покупка</th>
+            <th class="curency__th">Продажа</th>
+            <th class="curency__th">Время обновления</th>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/sber-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Сбербанк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/alpha-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Альфа-Банк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/vtb-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">ВТБ банк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/mcb-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Московский <br> кредитный банк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/tinkoff-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Тинькофф Банк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/gazprom-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Газпромбанк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/rosselhoz-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">РоссельхозБанк</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+          <tr class="curency__tr">
+            <td class="curency__td curency__td--flex">
+              <div class="curency__td-img">
+                <img src="img/banks/otkritie-bank.png" alt="">
+              </div>
+              <a href="" class="curency__td-title">Банк Открытие</a>
+            </td>
+            <td class="curency__td curency__td--up">
+              <span>77,41</span>
+            <td class="curency__td curency__td--down">
+              <span>77,35</span>
+            </td>
+            <td class="curency__time">
+              <span>15:12</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!--                         curency                        -->
+    </div>
+    <!--                         charts                         -->
+    <div class="chart">
+      <div class="container">
+        <h3 class="chart__title">Изменение курса доллара</h3>
+        <div class="chart__inner">
+          <table class="chart__table">
+            <tr class="chart__tr">
+              <th class="chart__th">Дата</th>
+              <th class="chart__th chart__th--blue-line">Покупка</th>
+              <th class="chart__th chart__th--red-line">Продажа</th>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">14.01</td>
+              <td class="chart__td chart-data__buy">89,41</td>
+              <td class="chart__td chart-data__sell">87,86</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">15.01</td>
+              <td class="chart__td chart-data__buy">89,45</td>
+              <td class="chart__td chart-data__sell">87,25</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">16.01</td>
+              <td class="chart__td chart-data__buy">89,46</td>
+              <td class="chart__td chart-data__sell">87,86</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">17.01</td>
+              <td class="chart__td chart-data__buy">89,49</td>
+              <td class="chart__td chart-data__sell">87,54</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">18.01</td>
+              <td class="chart__td chart-data__buy">89,51</td>
+              <td class="chart__td chart-data__sell">87,76</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">19.01</td>
+              <td class="chart__td chart-data__buy">90,41</td>
+              <td class="chart__td chart-data__sell">88,53</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">20.01</td>
+              <td class="chart__td chart-data__buy">89,31</td>
+              <td class="chart__td chart-data__sell">87,99</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">21.01</td>
+              <td class="chart__td chart-data__buy">89,49</td>
+              <td class="chart__td chart-data__sell">87,87</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">22.01</td>
+              <td class="chart__td chart-data__buy">89,21</td>
+              <td class="chart__td chart-data__sell">87,67</td>
+            </tr>
+            <tr class="chart__tr">
+              <td class="chart__td chart-data__period">23.01</td>
+              <td class="chart__td chart-data__buy">88,41</td>
+              <td class="chart__td chart-data__sell">87,54</td>
+            </tr>
+          </table>
+          <canvas id="myChart" class="chart__view"></canvas>
+        </div>
+      </div>
+    </div>
+    <!--                         charts                         -->
+    <!--                         .info-block                         -->
+    <div class="info-block">
+      <div class="container">
+        <h2 class="info-block__title">Курсы валют в России на сегодня</h2>
+        <div class="info-block__text">
+          <p>Для того, чтобы все финансовые операции производились при наиболее выгодных условиях, иметь информацию о самых лучших обменных курсах валют фактически необходимо. Курсы валют в банках России постоянно обновляются, поэтому довольно важно в любой момент получать сведения об этих даже самых незначительных изменениях.</p>
+          <p>На текущей странице отображены сведения о:</p>
+        </div>
+        <ul class="info-block__list">
+          <li class="info-block__list-item info-block__list-item--dot">
+            курсе покупки и продажи доллара
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            курсе покупки и продажи евро
+          </li>
+        </ul>
+        <h2 class="info-block__title">Какие документы нужны?</h2>
+        <div class="info-block__text">
+          <p>Причем, лучший курс отмечен графически. Это делается с той целью, чтобы пользователь сайта сэкономил время на самостоятельном поиске наиболее выгодного курса. Благодаря этому, можно определить в обменник какого банка лучше всего будет обратиться и провести валютообменные операции. Зная курс наличной валюты можно с легкостью прогнозировать все предстоящие финансовые операции, которые прямо или косвенно связаны с покупкой или продажей валюты. Котировки на сайте своевременно обновляются, поэтому посетители сайта будут знать самый свежий курс обмена валют. Для того, чтобы узнать, какая сумма денег может понадобиться для обмена, можно воспользоваться конвертером, который произведет перевод, основываясь на актуальный курс валют.</p>
+        </div>
+      </div>
+    </div>
+    <!--                         .info-block                         -->
+    <!--                         cities                         -->
+    <div class="cities">
+      <div class="container">
+        <div class="cities__line"></div>
+        <h2 class="cities__title">Курсы валют в других городах</h2>
+        <div class="cities__cities">
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link cities__cities-link--active">Барнаул</span></li>
+            <li><span class="cities__cities-link">Владивосток</span></li>
+            <li><span class="cities__cities-link">Волгоград</span></li>
+            <li><span class="cities__cities-link">Воронеж</span></li>
+            <li><span class="cities__cities-link">Екатеринбург</span></li>
+            <li><span class="cities__cities-link">Ижевск</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Ижевск</span></li>
+            <li><span class="cities__cities-link">Казань</span></li>
+            <li><span class="cities__cities-link">Калуга</span></li>
+            <li><span class="cities__cities-link">Кемерово</span></li>
+            <li><span class="cities__cities-link">Краснодар</span></li>
+            <li><span class="cities__cities-link">Красноярск</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Москва</span></li>
+            <li><span class="cities__cities-link">Нижний Новгород</span></li>
+            <li><span class="cities__cities-link">Новокузнецк</span></li>
+            <li><span class="cities__cities-link">Новосибирск</span></li>
+            <li><span class="cities__cities-link">Омск</span></li>
+            <li><span class="cities__cities-link">Оренбург</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Пенза</span></li>
+            <li><span class="cities__cities-link">Пермь</span></li>
+            <li><span class="cities__cities-link">Ростов</span></li>
+            <li><span class="cities__cities-link">Ростов-на-Дону</span></li>
+            <li><span class="cities__cities-link">Самара</span></li>
+            <li><span class="cities__cities-link">Санкт-Петербург</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Саратов</span></li>
+            <li><span class="cities__cities-link">Тольятти</span></li>
+            <li><span class="cities__cities-link">Томск</span></li>
+            <li><span class="cities__cities-link">Тюмень</span></li>
+            <li><span class="cities__cities-link">Ульяновск</span></li>
+            <li><span class="cities__cities-link">Уфа</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Хабаровск</span></li>
+            <li><span class="cities__cities-link">Челябинск</span></li>
+            <li><span class="cities__cities-link">Ярославль</span></li>
+          </ul>
+        </div>
+        <h2 class="cities__title">Курсы валют в других городах России</h2>
+        <div class="cities__cities">
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link cities__cities-link--active">Барнаул</span></li>
+            <li><span class="cities__cities-link">Владивосток</span></li>
+            <li><span class="cities__cities-link">Волгоград</span></li>
+            <li><span class="cities__cities-link">Воронеж</span></li>
+            <li><span class="cities__cities-link">Екатеринбург</span></li>
+            <li><span class="cities__cities-link">Ижевск</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Ижевск</span></li>
+            <li><span class="cities__cities-link">Казань</span></li>
+            <li><span class="cities__cities-link">Калуга</span></li>
+            <li><span class="cities__cities-link">Кемерово</span></li>
+            <li><span class="cities__cities-link">Краснодар</span></li>
+            <li><span class="cities__cities-link">Красноярск</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Москва</span></li>
+            <li><span class="cities__cities-link">Нижний Новгород</span></li>
+            <li><span class="cities__cities-link">Новокузнецк</span></li>
+            <li><span class="cities__cities-link">Новосибирск</span></li>
+            <li><span class="cities__cities-link">Омск</span></li>
+            <li><span class="cities__cities-link">Оренбург</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Пенза</span></li>
+            <li><span class="cities__cities-link">Пермь</span></li>
+            <li><span class="cities__cities-link">Ростов</span></li>
+            <li><span class="cities__cities-link">Ростов-на-Дону</span></li>
+            <li><span class="cities__cities-link">Самара</span></li>
+            <li><span class="cities__cities-link">Санкт-Петербург</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Саратов</span></li>
+            <li><span class="cities__cities-link">Тольятти</span></li>
+            <li><span class="cities__cities-link">Томск</span></li>
+            <li><span class="cities__cities-link">Тюмень</span></li>
+            <li><span class="cities__cities-link">Ульяновск</span></li>
+            <li><span class="cities__cities-link">Уфа</span></li>
+          </ul>
+          <ul class="cities__cities-list">
+            <li><span class="cities__cities-link">Хабаровск</span></li>
+            <li><span class="cities__cities-link">Челябинск</span></li>
+            <li><span class="cities__cities-link">Ярославль</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--                         cities                         -->
+  </main>
+  @@include('./components/footer.html')
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

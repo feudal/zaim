@@ -1,0 +1,118 @@
+.margin-mobile-20 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .margin-mobile-20 {
+    margin-top: 20px;
+  }
+}
+
+/*****--------------------search-----------------*****/
+@media only screen and (max-width: 640px) {
+  .search {
+    &__block {}
+
+    &__input {
+      padding: 10px;
+    }
+
+    &__button {
+      width: 150px;
+    }
+
+    &__letters {}
+
+    &__letters-item {
+      &--inactive {}
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .search {
+    &__block {
+      flex-direction: column;
+    }
+
+    &__input {
+      margin-right: 0;
+    }
+
+    &__button {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    &__letters {}
+
+    &__letters-item {
+      &--inactive {}
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search {
+    &__block {}
+
+    &__input {}
+
+    &__button {}
+
+    &__letters {}
+
+    &__letters-item {
+      &--inactive {}
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .search {
+    &__block {}
+
+    &__input {}
+
+    &__button {}
+
+    &__letters {}
+
+    &__letters-item {
+      &--inactive {}
+    }
+  }
+}
+
+/*****--------------------search-----------------*****/
+
+/*****--------------------pointers-----------------*****/
+@media only screen and (max-width: 640px) {
+  .pointers {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+    &__item {}
+
+    &__title {}
+
+    &__text {}
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .pointers {
+
+    grid-template-columns: 1fr;
+
+    &__item {}
+
+    &__title {}
+
+    &__text {}
+  }
+
+}
+
+/*****--------------------pointers-----------------*****/

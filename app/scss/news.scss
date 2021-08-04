@@ -1,0 +1,139 @@
+/*****--------------------pagination-----------------*****/
+.pagination {
+  padding: 50px 0;
+
+  &--p25 {
+    padding: 25px 0;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    border: 1px solid #C6CEDA;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    width: 43px;
+    height: 43px;
+    margin: 0 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s;
+
+    &--active {
+      background: rgba(238, 240, 245, 0.5);
+      color: $light-blue;
+      pointer-events: none;
+    }
+
+    &:hover {
+      background: rgba(238, 240, 245, 0.5);
+      color: $light-blue;
+
+      path {
+        stroke: $light-blue;
+      }
+    }
+
+    &--arrow-left {
+      background: url(../img/icons/arrow-right.svg) no-repeat center center;
+      transform: rotate(180deg);
+    }
+
+    &--arrow-right {
+      background: url(../img/icons/arrow-right.svg) no-repeat center center;
+    }
+  }
+}
+
+/*****--------------------pagination-----------------*****/
+
+/*****--------------------table-----------------*****/
+.table {
+  min-width: 720px;
+  border-collapse: collapse;
+  border: 1px solid #B9B9B9;
+
+  &__tr {
+
+    border: 1px solid #B9B9B9;
+  }
+
+  &__th {
+    border: 1px solid #B9B9B9;
+    padding: 10px 8px;
+    background: $bg-grey;
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $dark-grey;
+  }
+
+  &__td {
+    min-width: 25%;
+    border: 1px solid #B9B9B9;
+    padding: 10px 8px;
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7F7F7F;
+
+    &--blue {
+      font-weight: 500;
+      color: $light-blue;
+    }
+  }
+}
+
+/*****--------------------table-----------------*****/
+
+/*****--------------------color-social-----------------*****/
+.color-social {
+  display: flex;
+  align-items: center;
+  padding: 22px 0;
+  border-top: 1px solid #C6CEDA;
+  border-bottom: 1px solid #C6CEDA;
+  margin-bottom: 12px;
+
+  &__title {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $light-grey;
+
+    margin-right: 50px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 10px;
+  }
+}
+
+/*****--------------------color-social-----------------*****/

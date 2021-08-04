@@ -1,0 +1,260 @@
+/*****--------------------block-----------------*****/
+.block {
+  width: calc(100% - 320px);
+  margin-right: 20px;
+  margin-bottom: 12px;
+}
+
+/*****--------------------block-----------------*****/
+/*****--------------------aside-----------------*****/
+
+.aside {
+  width: 300px;
+
+  &--absolute {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 15px;
+  }
+
+  &__block {
+    background: #FFFFFF;
+    border: 1px solid #C6CEDA;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    padding: 26px;
+
+  }
+
+  &__company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__logo {}
+
+  &__name {
+    padding: 4px 0 8px;
+  }
+  &__person {
+    min-height: 70px;
+  }
+
+  &__line {
+    height: 0.5px;
+    width: 100%;
+    background: #C6CEDA;
+    margin: 15px 0;
+  }
+
+  &__info-title {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $grey;
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $light-blue;
+  }
+
+  &__info {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $dark-grey;
+  }
+
+  &__button {}
+}
+
+
+/*****--------------------aside-----------------*****/
+
+/*****--------------------request-----------------*****/
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+
+  border: double 1px transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(180deg, #23A1ED 0%, #20D66B 100%);
+  // background-image: linear-gradient(180deg, #23A1ED 0%, #20D66B 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  margin-bottom: 12px;
+
+
+  &__column {}
+
+  &__title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $dark-grey;
+  }
+
+
+  &__info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__button {
+    width: 150px;
+  }
+
+  &__minor-info {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}
+
+/*****--------------------request-----------------*****/
+/*****--------------------double-list-----------------*****/
+.info-block {
+
+  &__big-title {
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  &__small-title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 12px;
+  }
+
+  &__double-list {}
+
+  &__line {
+    border: 1px solid #C6CEDA;
+    margin-bottom: 28px;
+  }
+
+  &__border {
+    background: #FFFFFF;
+    border: 1px solid #C6CEDA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 25px;
+  }
+
+  &__list-item {
+    &--number {}
+  }
+
+  &__title {}
+
+  &__group-double {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+
+    &>div,
+    &>ol {
+      height: 100%;
+    }
+  }
+}
+
+
+.double-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1fr);
+  grid-column-gap: 20px;
+
+
+  &__item {
+    &--check {
+      position: relative;
+      background: url('../img/icons/bifa.svg') no-repeat left 3px;
+      padding-left: 30px;
+    }
+
+    &--dot {
+      padding-left: 30px;
+      position: relative;
+
+      &::before {
+        content: "\2022";
+        color: $light-blue;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        top: 3px;
+      }
+    }
+  }
+
+  &__word {
+    margin-bottom: 12px;
+    display: inline-block;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+}

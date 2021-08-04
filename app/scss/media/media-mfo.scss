@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1024px) {
+  .aside {
+    &__double-map {
+      padding: 0;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aside {
+
+  	&__double {
+  		margin-bottom: 25px;
+  	}
+    &__double-map {
+      padding: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.left-block {
+	&__map {
+		border: 1px solid red;
+		height: 550px;
+		overflow: hidden;
+	}
+}
+}

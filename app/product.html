@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Product</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    <!-- <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a href="news.html" class="header-menu-link my-link">Новости</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Финансовая граммотность</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Скидки</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="" class="header-menu-link">Рейтинги МФО</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="bank-rating.html" class="header-menu-link my-link">Рейтинги банков</a>
+        </li>
+      </ul>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="services__menu">
+      <li class="services__item"><a href="currency.html" class="services__link my-link">Курсы валют</a></li>
+      <li class="services__item"><a href="zaim.html" class="services__link my-link">Займы</a></li>
+      <li class="services__item"><a href="" class="services__link ">Кредиты</a></li>
+      <li class="services__item"><a href="" class="services__link">Банки</a></li>
+      <li class="services__item"><a href="mfo.html" class="services__link my-link">МФО</a></li>
+      <li class="services__item"><a href="" class="services__link">Дебетовые карты</a></li>
+      <li class="services__item"><a href="" class="services__link">Вклады</a></li>
+      <li class="services__item"><a href="" class="services__link">Страхование</a></li>
+      <li class="services__item"><a href="" class="services__link">РКО</a></li>
+    </ul>
+  </div>
+</header> -->
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <div class="header__curs">
+        <div class="header__curs-euro">76.20</div>
+        <div class="header__curs-dolar">90.20</div>
+      </div>
+      <div class="header__location">
+        <div class="header__location-now">Россия</div>
+        <div class="header__location-hidden">
+          <div class="container">
+            <div class="hidden__inner">
+              <div class="hidden__close"></div>
+              <h2 class="hidden__title">Поиск города</h2>
+              <form class="hidden__search">
+                <input type="text" class="hidden__input">
+                <button class="hidden__find"></button>
+              </form>
+              <div class="hidden__cities">
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link hidden__cities-link--active">Барнаул</span></li>
+                  <li><span class="hidden__cities-link">Владивосток</span></li>
+                  <li><span class="hidden__cities-link">Волгоград</span></li>
+                  <li><span class="hidden__cities-link">Воронеж</span></li>
+                  <li><span class="hidden__cities-link">Екатеринбург</span></li>
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Ижевск</span></li>
+                  <li><span class="hidden__cities-link">Казань</span></li>
+                  <li><span class="hidden__cities-link">Калуга</span></li>
+                  <li><span class="hidden__cities-link">Кемерово</span></li>
+                  <li><span class="hidden__cities-link">Краснодар</span></li>
+                  <li><span class="hidden__cities-link">Красноярск</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Москва</span></li>
+                  <li><span class="hidden__cities-link">Нижний Новгород</span></li>
+                  <li><span class="hidden__cities-link">Новокузнецк</span></li>
+                  <li><span class="hidden__cities-link">Новосибирск</span></li>
+                  <li><span class="hidden__cities-link">Омск</span></li>
+                  <li><span class="hidden__cities-link">Оренбург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Пенза</span></li>
+                  <li><span class="hidden__cities-link">Пермь</span></li>
+                  <li><span class="hidden__cities-link">Ростов</span></li>
+                  <li><span class="hidden__cities-link">Ростов-на-Дону</span></li>
+                  <li><span class="hidden__cities-link">Самара</span></li>
+                  <li><span class="hidden__cities-link">Санкт-Петербург</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Саратов</span></li>
+                  <li><span class="hidden__cities-link">Тольятти</span></li>
+                  <li><span class="hidden__cities-link">Томск</span></li>
+                  <li><span class="hidden__cities-link">Тюмень</span></li>
+                  <li><span class="hidden__cities-link">Ульяновск</span></li>
+                  <li><span class="hidden__cities-link">Уфа</span></li>
+                </ul>
+                <ul class="hidden__cities-list">
+                  <li><span class="hidden__cities-link">Хабаровск</span></li>
+                  <li><span class="hidden__cities-link">Челябинск</span></li>
+                  <li><span class="hidden__cities-link">Ярославль</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__location-bg"></div>
+        </div>
+      </div>
+      <div class="header__burger"></div>
+    </div>
+    <div class="services__wrapper">
+      <ul class="services__menu">
+        <li class="services__item"><div class="services__toggle"></div></li>
+        <li class="services__item"><a href="currency.html" class="services__link">Курсы валют</a></li>
+        <li class="services__item"><a href="zaim.html" class="services__link">Займы</a></li>
+        <li class="services__item"><a href="mfo.html" class="services__link">МФО</a></li>
+        <li class="services__item"> <a href="news.html" class="services__link">Новости</a> </li>
+        <li class="services__item"> <a href="bank-rating.html" class="services__link">Рейтинги банков</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="" class="breadcrumbs__link">МФО</a></li>
+        <li><a href="" class="breadcrumbs__link">Greenmoney</a></li>
+        <li><a href="" class="breadcrumbs__link">Онлайн-займ без залога</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+      <!--                         block                         -->
+      <div class="flex-wrapper">
+        <div class="block">
+          <div class="main__top">
+            <h1 class="main__title">Онлайн займ без залога</h1>
+            <div class="main__date">Обновлено 23.11.2020</div>
+          </div>
+          <div class="info-block__text">
+            <p>Оформление денег в долг до 50 тысяч рублей единовременно от компании Турбозайм осуществляется на карту
+              или на подтвержденный электронный кошелек заемщика</p>
+          </div>
+          <!--                         request                         -->
+          <div class="request">
+            <div class="request__column">
+              <h3 class="request__title">Сумма, ₽</h3>
+              <div class="request__info">3000-50000 ₽</div>
+            </div>
+            <div class="request__column">
+              <h3 class="request__title">Ставка от</h3>
+              <div class="request__info">0.49 - 1%</div>
+            </div>
+            <div class="request__column">
+              <h3 class="request__title">Срок</h3>
+              <div class="request__info">7 - 168 дн.</div>
+            </div>
+            <div class="request__column">
+              <a href="" class="request__button button button--gradient">Подать заявку</a>
+              <div class="request__minor-info">123233 заявок</div>
+            </div>
+          </div>
+          <!--                         request                         -->
+          <div class="info-block__text">
+            <p>Отличный вариант оформления денег в долг до 50 000 рублей онлайн - оформление займа без залога и поручителей в Турбозайме. Понятные условия по оформлению и возврату средств. Выберите один из 2х вариантов получения средств (банковская карта, либо кошелек Яндекс.Денег) и получите необходимые Вам деньги уже через 15 минут.</p>
+          </div>
+          <h2 class="info-block__big-title">Основные условия</h2>
+          <ul class="info-block__double-list double-list">
+            <li class="double-list__item double-list__item--check">
+              <span class="double-list__word">Ставка от:</span>
+              <span class="double-list__word double-list__word--bold">от 0 до 1% в день</span>
+            </li>
+            <li class="double-list__item double-list__item--check">
+              <span class="double-list__word">Сумма:</span>
+              <span class="double-list__word double-list__word--bold">от 3000 до 50 000 рублей</span>
+            </li>
+            <li class="double-list__item double-list__item--check">
+              <span class="double-list__word">Срок погашения:</span>
+              <span class="double-list__word double-list__word--bold">от 7 до 168 дней</span>
+            </li>
+            <li class="double-list__item double-list__item--check">
+              <span class="double-list__word">Срок рассмотрения заявки:</span>
+              <span class="double-list__word double-list__word--bold">от 5 до 15 минут</span>
+            </li>
+          </ul>
+          <div class="info-block__line"></div>
+          <h2 class="info-block__big-title">Требования</h2>
+          <ul class="info-block__double-list double-list">
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Кому предоставляется:</span>
+              <span class="double-list__word">Физ. лицам</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Возраст заёмщика:</span>
+              <span class="double-list__word">21 - 65 лет</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Постоянная регистрация:</span>
+              <span class="double-list__word">Не требуется</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Гражданство РФ:</span>
+              <span class="double-list__word">Требуется</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Официальное трудоустройство:</span>
+              <span class="double-list__word">Не обязательно</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Обязательные документы:</span>
+              <span class="double-list__word">Паспорт</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Плохая кредитная история:</span>
+              <span class="double-list__word">Допускается</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Залог:</span>
+              <span class="double-list__word">Нет</span>
+            </li>
+            <li class="double-list__item double-list__item--dot">
+              <span class="double-list__word double-list__word--bold">Поручители:</span>
+              <span class="double-list__word">Нет</span>
+            </li>
+          </ul>
+            <h2 class="info-block__big-title">Выдача и погашение</h2>
+          <div class="info-block__group-double">
+            <ol class="info-block__list info-block__border">
+              <h2 class="info-block__small-title">Выдача и погашение</h2>
+              <li class="info-block__list-item info-block__list-item--number">Оформляете заявку на сайте Манимен.</li>
+              <li class="info-block__list-item info-block__list-item--number">Подтверждаете свои данные в личном кабинете.</li>
+              <li class="info-block__list-item info-block__list-item--number">Ожидаете одобрения. </li>
+              <li class="info-block__list-item info-block__list-item--number">Получаете деньги онлайн на Вашу карту.</li>
+            </ol>
+            <div class="info-block__border">
+              <h2 class="info-block__small-title">Как погасить займ?</h2>
+              <div class="info-block__text">
+                <p>Погашение займа осуществляется одним из многих доступных вариантов, таких как безналичное перечисление на счет манимен с банковской карты,
+                  с электронного кошелька, наличными через терминалы.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="aside">
+          <div class="aside__block">
+            <div class="aside__company">
+              <div class="aside__logo">
+                <img src="img/partners/green-money.png" alt="">
+              </div>
+              <div class="aside__name">ООО МКК «Макро»</div>
+              <div class="reviews__stars">
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star star--active"></div>
+                <div class="star"></div>
+              </div>
+            </div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Сайт:</h3>
+            <a href="" class="aside__link">moneza.ru</a>
+            <h3 class="aside__info-title">Телефон:</h3>
+            <a href="tel:+7-495-968-76-54" class="aside__link">+7-495-968-76-54</a>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Регистрационный номер:</h3>
+            <div class="aside__info">1603045007582</div>
+            <h3 class="aside__info-title">КПП:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ИНН:</h3>
+            <div class="aside__info">7722355735</div>
+            <h3 class="aside__info-title">ОГРН:</h3>
+            <div class="aside__info">1167746181790</div>
+            <h3 class="aside__info-title">Юридический адрес:</h3>
+            <div class="aside__info">107078, Москва,<br> ул. Каланчевская, 27</div>
+            <div class="aside__line"></div>
+            <h3 class="aside__info-title">Рассмотрение: <span>круглосуточно</span></h3>
+            <a href="" class="aside__button button button--gradient">Подать заявку</a>
+          </div>
+        </aside>
+      </div>
+      <!--                         block                         -->
+      <!--                         info-block                         -->
+      <h2 class="info-block__title">Дополнительная информация</h2>
+      <div class="info-block__text">
+        <p>Чтобы стать клиентом MoneyMan необходимо иметь паспорт РФ, СНИЛС, у Вас должен быть активный номер сотового телефона и адрес электронной почты.
+          Для получения займа без процента в Манимен, достаточно лишь оформить заявку на сайте и подтвердить свои данные в простых шагах, которые предоставляет личный кабинет сайта.</p>
+      </div>
+      <a href="" class="info-block__link">Страница займа на сайте МФО</a>
+      <!--                         info-block                         -->
+      <!--                         offers                         -->
+      <div class="offers offers--white">
+        <div class="block__top">
+          <h2 class="block__title">Рекомендуемые микрозаймы других организаций</h2>
+        </div>
+        <ul class="offers__cards">
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/otkritie.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/raifaizen.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/turbo-zaim.png" alt="">
+            </a>
+            <div class="offers__mode">Кредитная карта 100 дней <br> без %</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+          <li class="offers__card">
+            <a href="" class="offers__logo">
+              <img src="img/partners/green-money.png" alt="">
+            </a>
+            <div class="offers__mode">Наличными</div>
+            <div class="offers__procent">9 %</div>
+            <div class="offers__total">
+              <span>Сумма: </span>
+              <span class="offers__info">от 100 тыс. до 2.5 млн</span>
+            </div>
+            <div class="offers__total">
+              <span>Срок: </span>
+              <span class="offers__info">от 12 до 60 мес.</span>
+            </div>
+            <a href="" class="offers__button button button--gradient">Подать заявку</a>
+          </li>
+        </ul>
+      </div>
+      <!--                         offers                         -->
+    </div>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+      <div class="footer__copy">© 2017 - 2020 Займ.me Все права защищены.</div>
+      <ul class="footer__social social">
+        <li><a href="" class="social-link"><img src="img/social/Yandex-zen-black.svg " alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/vk-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/facebook-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/twitter-black.svg" alt=""></a></li>
+        <li><a href="" class="social-link"><img src="img/social/instagram-black.svg" alt=""></a></li>
+      </ul>
+    </div>
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">О нас</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Контакты</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Вакансии</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Отзывы</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакция</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Редакционная политика</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="" class="footer__menu-link">Наша компенсация</a>
+      </li>
+    </ul>
+    <div class="footer__middle">
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие кредитные карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитные карты без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредитной карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Дебетовые карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с бесплатным обслуживанием</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты с доставкой на дом</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Лучшие карты рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Карты рассрочки без отказа</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рассрочки</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредиты наличными на карту</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор кредита</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Рефинансирование</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Автокредиты</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Кредитная история</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Микрозайм</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">Калькулятор займов</a>
+        </li>
+        <li class="footer__list-item">
+          <a href="" class="footer__list-link">РКО для бизнеса</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <img src="img/icons/mail.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Наша почта</h3>
+            <a href="" class="footer__list-link">Рефинансирование</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/phone.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Телефон</h3>
+            <a href="" class="footer__list-link">Калькулятор рефинансирования</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/clock.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Режим работы</h3>
+            <a href="" class="footer__list-link">Автокредиты</a>
+          </div>
+        </li>
+        <li class="footer__list-item">
+          <img src="img/icons/home.svg" alt="" class="footer__list-icon">
+          <div class="footer__list-group">
+            <h3 class="footer__list-title">Адрес</h3>
+            <a href="" class="footer__list-link">Кредитная история</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__confidential">
+      <div class="footer__confidential-paragrapgh">Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, в объеме и целях, изложенных в
+        <a href="" class="footer__confidential-link">Политика конфиденциальности, Пользовательское соглашение</a>
+      </div>
+      <div class="footer__confidential-paragrapgh">ИП Булатов Р.О. ИНН: 423082922740. ОГРНИП: 318420500081301. Содержание сайта не является рекомендацией или офертой, вся информация носит ознакомительный характер.
+        При использовании материалов гиперссылка на Займ.me обязательна. </div>
+    </div>
+  </div>
+</footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

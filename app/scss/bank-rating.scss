@@ -1,0 +1,195 @@
+.bank-list {
+  overflow: hidden;
+  border: 1px solid #A3A3A3;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  &__item {
+    border-bottom: 1px solid #C6CEDA;
+    padding: 33px 62px;
+
+    display: grid;
+    grid-template-columns: 5fr repeat(3, 10fr) 7fr;
+    margin-bottom: -1px;
+  }
+
+  &__row {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+
+    &--bold {
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+      text-align: left;
+    }
+
+  }
+
+  &__img {
+    margin-right: 10px;
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $light-blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__stars {
+    display: inline-flex;
+    margin-left: 10px;
+  }
+
+  &__span {
+    width: 50px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $grey;
+  }
+}
+
+.stars {}
+
+.star {
+  &--active {}
+}
+
+/*****--------------------bank-list-----------------*****/
+@media only screen and (max-width: 1024px) {
+  .bank-list {
+    &__item {
+      padding: 20px 40px;
+    }
+
+    &__row {
+      &--bold {}
+    }
+
+    &__img {}
+
+    &__link {}
+
+    &__span {}
+
+    &__stars {}
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bank-list {
+    &__item {
+      grid-template-columns: 1fr 5fr 5fr;
+      grid-row-gap: 5px;
+    }
+
+    &__row {
+      &:first-child {
+        grid-row: 1/4;
+        display: flex;
+        align-items: start;
+      }
+
+      &:nth-last-child(1) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+      }
+
+      &--bold {}
+    }
+
+    &__img {}
+
+    &__link {}
+
+    &__span {}
+
+    &__stars {}
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bank-list {
+    &__item {
+      padding: 26px 16px;
+      grid-template-columns: 1fr 5fr 5fr;
+      grid-row-gap: 5px;
+    }
+
+    &__row {
+      &:first-child {
+        grid-row: 1/4;
+        display: flex;
+        align-items: start;
+      }
+
+      &:nth-last-child(4) {
+        grid-column: 2/-1;
+      }
+
+      &:nth-last-child(1) {
+        grid-column: 2/-1;
+        grid-row: 2/3;
+      }
+
+      &--bold {}
+    }
+
+    &__img {}
+
+    &__link {}
+
+    &__span {}
+
+    &__stars {}
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .bank-list {
+    &__item {}
+
+    &__row {
+      text-align: left;
+      font-size: 16px;
+line-height: 20px;
+      &--bold {}
+    }
+
+    &__img {}
+
+    &__link {}
+
+    &__span {}
+
+    &__stars {}
+  }
+}
+
+/*****--------------------bank-list-----------------*****/

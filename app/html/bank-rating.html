@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Bank Rating</title>
+</head>
+
+<body>
+  <div class="header--grey">
+    @@include('./components/header.html')
+  </div>
+  <main class="main">
+    <div class="container">
+      <!--                         breadcrumbs                         -->
+      <ul class="breadcrumbs">
+        <li><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li><a href="" class="breadcrumbs__link">Банки</a></li>
+        <li><a href="" class="breadcrumbs__link">Рейтинг банков</a></li>
+      </ul>
+      <!--                         breadcrumbs                         -->
+      <div class="main">
+        <div class="main__top">
+          <h1 class="main__title">Рейтинг банков в <span>России</span></h1>
+          <div class="main__date">Обновлено 23.11.2020</div>
+        </div>
+        <div class="main__text">
+          <p>Здесь Вы найдете лучшие предложения от 60и микрофинансовых компаний Москвы, предоставляющих возможность легкого и быстрого получения займов без справок с места работы и прочей волокиты. Ознакомьтесь с условиями выдачи денег в Москве, заполните бесплатную форму на нашем сайте и получите деньги уже сегодня удобным для Вас способом!</p>
+        </div>
+      </div>
+      <ul class="left-block__menu">
+        <li class="left-block__menu-item left-block__menu-item--active">Все</li>
+        <li class="left-block__menu-item">По сумме</li>
+        <li class="left-block__menu-item">По сроку</li>
+        <li class="left-block__menu-item">По процентам</li>
+        <li class="left-block__menu-item">По возрасту</li>
+      </ul>
+      <!--                         search                         -->
+      <form class="search">
+        <div class="padding-20"></div>
+        <div class="search__block">
+          <input type="text" class="search__input" placeholder="Введите  название банка">
+        </div>
+        <ul class="search__letters">
+          <li class="search__letters-item">
+            <a href="wiki-letter.html">A</a>
+          </li>
+          <li class="search__letters-item search__letters-item--inactive"><a href="">Б</a></li>
+          <li class="search__letters-item"><a href="">В</a></li>
+          <li class="search__letters-item"><a href="">Г</a></li>
+          <li class="search__letters-item"><a href="">Д</a></li>
+          <li class="search__letters-item"><a href="">Е</a></li>
+          <li class="search__letters-item"><a href="">Ё</a></li>
+          <li class="search__letters-item"><a href="">Ж</a></li>
+          <li class="search__letters-item"><a href="">З</a></li>
+          <li class="search__letters-item"><a href="">И</a></li>
+          <li class="search__letters-item"><a href="">Й</a></li>
+          <li class="search__letters-item"><a href="">К</a></li>
+          <li class="search__letters-item"><a href="">Л</a></li>
+          <li class="search__letters-item"><a href="">М</a></li>
+          <li class="search__letters-item"><a href="">Н</a></li>
+          <li class="search__letters-item"><a href="">О</a></li>
+          <li class="search__letters-item"><a href="">П</a></li>
+          <li class="search__letters-item"><a href="">Р</a></li>
+          <li class="search__letters-item"><a href="">С</a></li>
+          <li class="search__letters-item"><a href="">Т</a></li>
+          <li class="search__letters-item"><a href="">У</a></li>
+          <li class="search__letters-item"><a href="">Ф</a></li>
+          <li class="search__letters-item"><a href="">Х</a></li>
+          <li class="search__letters-item"><a href="">Ц</a></li>
+          <li class="search__letters-item"><a href="">Ч</a></li>
+          <li class="search__letters-item"><a href="">Ш</a></li>
+          <li class="search__letters-item"><a href="">Щ</a></li>
+          <li class="search__letters-item"><a href="">Ъ</a></li>
+          <li class="search__letters-item"><a href="">Ы</a></li>
+          <li class="search__letters-item"><a href="">Ь</a></li>
+          <li class="search__letters-item"><a href="">Э</a></li>
+          <li class="search__letters-item"><a href="">Ю</a></li>
+          <li class="search__letters-item"><a href="">Я</a></li>
+        </ul>
+      </form>
+      <!--                         search                         -->
+      <!--                         bank-list                         -->
+      <ul class="bank-list">
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">1</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/sber-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Сбербанк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">2</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/alpha-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Альфа-Банк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">3</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/vtb-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">ВТБ банк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">4</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/mcb-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Московский <br>кредитный банк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">5</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/tinkoff-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Тинькофф Банк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">6</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/gazprom-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Газпромбанк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">7</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/rosselhoz-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">РоссельхозБанк</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">8</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/otkritie-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Банк Открытие</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">9</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/otkritie-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Банк Открытие</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+        <li class="bank-list__item">
+          <div class="bank-list__row bank-list__row--bold">10</div>
+          <div class="bank-list__row">
+            <div class="bank-list__img">
+              <img src="img/banks/otkritie-bank.png" alt="">
+            </div>
+            <a href="bank.html" class="bank-list__link">Банк Открытие</a>
+          </div>
+          <div class="bank-list__row">123456 голосов</div>
+          <div class="bank-list__row">123456 просмотров</div>
+          <div class="bank-list__row">
+            <span class="bank-list__span">4 из 5</span>
+            <div class="bank-list__stars">
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star star--active"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!--                         bank-list                         -->
+      <!--                         pagination                         -->
+      <div class="pagination pagination--p25">
+        <div class="pagination__inner">
+          <a href="" class="pagination__link pagination__link--arrow-left">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.75 9H14.25" stroke="#8A8A8A" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9 3.75L14.25 9L9 14.25" stroke="#8A8A8A" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href="" class="pagination__link pagination__link--active">1</a>
+          <a href="" class="pagination__link">2</a>
+          <a href="" class="pagination__link">...</a>
+          <a href="" class="pagination__link">50</a>
+          <a href="" class="pagination__link">52</a>
+          <a href="" class="pagination__link pagination__link--arrow-right">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.75 9H14.25" stroke="#8A8A8A" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9 3.75L14.25 9L9 14.25" stroke="#8A8A8A" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--                         pagination                         -->
+    </div>
+    <!--                         .info-block                         -->
+    <div class="info-block info-block--p-0">
+      <div class="container">
+        <h2 class="info-block__title">Критерии для составления рейтинга банков</h2>
+        <div class="info-block__text">
+          <p>Рейтинг банков – оценка объектов по степени соответствия разным параметрам. Он позволяет предоставить объективную информацию о деятельности учреждения. Составляется независимой и авторитетной организацией, в роли которой могут выступать и ЦБ РФ, и рейтинговые агентства.</p>
+        </div>
+        <h2 class="info-block__title">Преимущества при оформлении денег на нашем портале</h2>
+        <div class="info-block__text">
+          <p>Подбирайте предложения от всех компаний, выдающих быстрые займы до зарплаты для абсолютно всех категорий людей с различной текущей финансовой ситуацией. Самое главные составляющие для того чтобы Вы могли взять и оформить заем, это соответствие следующим критериям, единым у всех компаний:</p>
+        </div>
+        <ul class="info-block__list">
+          <li class="info-block__list-item info-block__list-item--check">активов:</li>
+          <li class="info-block__list-item info-block__list-item--check">вкладов:</li>
+          <li class="info-block__list-item info-block__list-item--check">кредитов:</li>
+          <li class="info-block__list-item info-block__list-item--check">всех капиталов.</li>
+        </ul>
+        <h2 class="info-block__title">Рейтинг банков по надежности</h2>
+        <div class="info-block__text">
+          <p>Данные о денежных поступлениях и оборотах обновляются ежемесячно. Составляется рейтинг банков по надежности по данным Центробанка. Учитывается способность конкретного учреждения выполнять в полной мере взятые на себя обязательства как перед физическими лицами, так и перед юридическими. ЦБ РФ тщательно проверяет соответствие учреждений определенным показателям.</p>
+        </div>
+        <h2 class="info-block__title">Как самостоятельно составить рейтинг надежности российских банков и сделать правильный выбор?</h2>
+        <ul class="info-block__list">
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Работающие неофициально или получающие основной доход не официально. Как и где работать – решать только Вам, при заполнении онлайн заявки в персональных данных не нужно указывать место работы, размер дохода и другую подобную информацию. Доходом может быть пособие, алименты, пенсия, стипендия – клиенты сами оценивают свои возможности и платёжеспособность.</p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Лица с плохой кредитной историей. В жизни бывает разное, ошибка в прошлом не означает отказ от помощи в настоящем. Возьмите деньги срочно на равных для всех условиях, не оглядываясь на прошлый негативный опыт.</p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Временно неработающие по каким-либо обстоятельствам. Перечисление денежных средств на банковскую карту решит финансовые проблемы, поможет преодолеть трудности, даст возможность сделать небольшое вложение или рассчитаться со старыми кредитами. Наличие или отсутствие постоянной работы не является причиной для отказа от того, чтобы взять деньги в долг под процент.</p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Студенты по достижению 18 лет, а отдельные микрофинансовые организации предлагают деньги в долг и до достижения совершеннолетия (как правило, не официальные). При получении денег в долг неважно, на что он необходим – на телефон, ноутбук, оплату обучения, аренду квартиры.
+              Лица, проживающие на пенсию, также подходят для того, чтобы получить деньги.</p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Домохозяйки, женщины в отпуске по уходу за ребенком. Сломалась бытовая техника и нужно срочно починить или купить новую, заболел кто-то из семьи – ситуаций, когда необходимы денежные средства, множество. Решение на выгодных условиях одно – получить мгновенные займы и не просить у знакомых и родственников в долг.</p>
+          </li>
+          <li class="info-block__list-item info-block__list-item--dot">
+            <p>Судимые, вне зависимости от статьи.</p>
+          </li>
+        </ul>
+        <div class="info-block__text">
+          <p>Рейтинг банков в 2021 году возглавили финансовые учреждения, имеющие государственную поддержку. На сайте есть возможность найти предложения, удобное месторасположение филиала выбранного учреждения.</p>
+        </div>
+      </div>
+    </div>
+    <!--                         .info-block                         -->
+  </main>
+  @@include('./components/footer.html')
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

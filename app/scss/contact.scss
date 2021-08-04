@@ -1,0 +1,78 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 35px;
+
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0 25px;
+
+  &__item {
+    &--big {
+      border-left: 1px solid #C4C4C4;
+      grid-row: 1 / 3;
+      grid-column: -1/-2;
+      padding-left: 57px;
+    }
+  }
+  &__group {
+  	margin-top: 25px;
+  }
+  &__person {
+  	float: left;
+  	height: 80px;
+  	width: 80px;
+  	border-radius: 50%;
+
+  	margin-right: 28px;
+  	img {
+  		width: 100%;
+  		height: 100%;
+  		object-fit: cover;
+  	}
+  }
+
+  &__logo {}
+
+  &__name {
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $light-blue;
+    margin-bottom: 12px;
+
+  }
+
+  &__title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $light-blue;
+
+    &:hover {
+      border-bottom: 1px dashed $light-blue;
+    }
+  }
+
+}

@@ -1,0 +1,65 @@
+/*****--------------------my_reset-----------------*****/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+input, textarea {
+  border-style:solid;
+  outline: none;
+}
+/*****--------------------my_reset-----------------*****/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+  position: relative;
+
+}
+
+.container-left {  
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 335px 0 15px;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  flex-grow: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-grow: 0;
+}
+
+input {
+  background: transparent;
+}

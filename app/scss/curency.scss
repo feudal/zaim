@@ -1,0 +1,235 @@
+.curency {
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__tr {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+
+    border-bottom: .5px solid #E5E5E5;
+
+    &:last-child {
+      border: 0;
+    }
+
+  }
+
+  &__th {
+    padding: 25px 0;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1D1D1B;
+
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+
+
+  &__td {
+    padding: 25px 5px;
+    min-width: 80px;
+    width: 15%;
+
+    &--flex {
+
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+    }
+
+    &--up {
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(../img/icons/arrow-up.svg) no-repeat center center;
+
+      }
+    }
+
+    &--down {
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(../img/icons/arrow-down.svg) no-repeat center center;
+      }
+    }
+  }
+
+  &__td-img {
+    flex-shrink: 0;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__td-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $light-blue;
+  }
+
+  &__time {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: $grey;
+
+    width: 15%;
+  }
+}
+
+/*****--------------------chart-----------------*****/
+.chart {
+  background: #EBEDF3;
+  padding: 30px 0;
+
+  &__title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+
+  &__table {
+    width: 320px;
+    margin-right: 80px;
+    border-collapse: collapse;
+  }
+
+  &__tr {}
+
+  &__th {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    border-bottom: 1px solid #C6CEDA;
+    padding-bottom: 20px;
+    position: relative;
+
+    &--blue-line {
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -1.5px;
+
+        width: 80%;
+        height: 2px;
+        background: #1F78B4;
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -4.5px;
+        left: 20%;
+
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #1F78B4;
+      }
+    }
+
+    &--red-line {
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -1.5px;
+
+        width: 80%;
+        height: 2px;
+        background: #FE7F0B;
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -4.5px;
+        left: 20%;
+
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FE7F0B;
+      }
+    }
+  }
+
+  &__td {
+    width: 33%;
+    padding: 12px 0;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+  }
+
+  &__view {
+    background: #fff;
+  }
+  .canvas {
+    // width: calc(100% - 400px -30px) !important;
+  }
+}
+
+/*****--------------------chart-----------------*****/
